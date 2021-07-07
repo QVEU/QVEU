@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to the QVEU
 
 You can use the [editor on GitHub](https://github.com/QVEU/QVEU_web/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
