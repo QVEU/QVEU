@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 JUL 2021 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 JUL 2021 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1418,16 +1418,16 @@ Underfull \hbox (badness 2376) in paragraph at lines 265--268
 \T1/XCharter-TLF/m/n/10 (+20) Use GitHub for ver-sion con-trol. Our lab uses
  []
 
-
-Overfull \hbox (19.32234pt too wide) in paragraph at lines 277--290
- [][] 
- []
-
 <Core_Competencies-02.png, id=283, 454.0965pt x 203.0787pt>
 File: Core_Competencies-02.png Graphic file (type png)
 <use Core_Competencies-02.png>
-Package pdftex.def Info: Core_Competencies-02.png  used on input line 293.
+Package pdftex.def Info: Core_Competencies-02.png  used on input line 270.
 (pdftex.def)             Requested size: 483.69687pt x 216.31596pt.
+
+Overfull \hbox (19.32234pt too wide) in paragraph at lines 281--294
+ [][] 
+ []
+
 [6] [7 <./Core_Competencies-02.png>] 
 AED: lastpage setting LastPage
 [8
@@ -1451,7 +1451,7 @@ Here is how much of TeX's memory you used:
  36580 multiletter control sequences out of 15000+600000
  662769 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,77p,948b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,77p,998b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}{
 /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/t
@@ -1459,10 +1459,10 @@ exlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 /texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (8 pages, 438872 bytes).
+Output written on main.pdf (8 pages, 438944 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
+ 356 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
  109 named destinations out of 1000 (max. 500000)
  35179 words of extra memory for PDF output out of 35830 (max. 10000000)
 
