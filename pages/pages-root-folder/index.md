@@ -9,8 +9,8 @@ header:
   image_fullwidth:
 widget1:
   title: "Publications"
+  image: AdaptiveLandscape.png
   url: 'https://scholar.google.com/citations?hl=en&user=FDehpokAAAAJ&view_op=list_works&sortby=pubdate'
-
   text: "See what's new from the QVEU."
 widget2:
   title: "About The QVEU."
