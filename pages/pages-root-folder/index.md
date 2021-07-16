@@ -8,10 +8,10 @@ layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
 widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Publications"
+  url: 'https://scholar.google.com/citations?hl=en&user=FDehpokAAAAJ&view_op=list_works&sortby=pubdate'
+  image: AdaptiveLandscape.png
+  text: 'See what's new from the QVEU'
 widget2:
   title: "Why use this theme?"
   url: 'http://phlow.github.io/feeling-responsive/info/'
