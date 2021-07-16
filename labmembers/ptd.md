@@ -1,14 +1,14 @@
 ---
 layout: page
-subheadline:  "Patrick T. Dolan - Unit Chief, QVEU"
-title:  "Unit Chief, QVEU"
+subheadline:  "Unit Chief, QVEU"
+title:  "Patrick T. Dolan, Ph.D."
 teaser: "Group Leader and Earl Stadtman Tenure-Track Investigator. "
 categories:
     - design
 tags:
     - design
     - background color
-    - header
+    - labmember
 header: no
 image:
     title: IMG_5786.jpg
@@ -19,4 +19,4 @@ Patrick T. Dolan, Ph.D. is an experimental virologist and computational biologis
 ### All Header-Styles
 {: .t60 }
 
-{% include labmembers %}
+{% include list-posts tag='labmember' %}
