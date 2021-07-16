@@ -34,8 +34,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  url: mailto:Patrick.Dolan@nih.gov
+  text: Contact Patrick Dolan
   style: alert
 permalink: /index.html
 #
