@@ -14,10 +14,11 @@
     url: "/labmembers/ptd/"
   - title: "Rebecca Walker"
     url: "/labmembers/rw/"
-  - title: "Rebecca Walker"
+  - title: "William Bakhache"
     url: "/labmembers/wb/"
 - title: GitHub
-  url: "https://github.com/qveu"
+  baseURL: https://example.com
+  url: "/qveu"
   side: left
 
 - title: Blog
