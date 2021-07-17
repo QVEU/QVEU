@@ -12,7 +12,7 @@ tags:
     - labmember
 header: no
 image:
-    title: logo.png #Photo here
+    title: /images/logo.png #Photo here
     caption: Rebecca Walker
 ---
 "Rebecca Walker..."
