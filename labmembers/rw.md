@@ -3,7 +3,7 @@ layout: page
 subheadline:  "Rebecca Walker - Postbac Researcher"
 title:  "Rebecca Walker"
 teaser: ""
-[e-mail](mailto:=====@nih.gov)  #e-mail here
+
 categories:
     - design
 tags:
@@ -17,6 +17,4 @@ image:
 ---
 "Rebecca Walker..."
 
-
-
-{: .t60 }
+[E-mail Rebecca](mailto:=====@nih.gov)  #e-mail here
