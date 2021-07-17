@@ -16,3 +16,7 @@ image:
     caption: Rebecca Walker
 ---
 "Rebecca Walker..."
+
+
+
+{: .t60 }

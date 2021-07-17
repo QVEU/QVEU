@@ -16,4 +16,5 @@ image:
 ---
 "William Bakhache earned his Ph.D. ..."
 
+
 {: .t60 }
