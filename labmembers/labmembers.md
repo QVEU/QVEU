@@ -7,8 +7,8 @@ header:
    image_fullwidth: "AerialDCBethesda.png"
 permalink: "/labmembers/"
 ---
-* [Patrick T. Dolan](/labmembers/ptd.md), Unit Chief
+* [Patrick T. Dolan](https://qveu.github.io/QVEU/labmembers/ptd/), Unit Chief
 
-* [William Bakhache](/labmembers/wb.md), Visiting Fellow
+* [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow
 
-* [Rebecca Walker](/labmembers/rw.md), Post-bac IRTA Fellow
+* [William Bakhache](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
