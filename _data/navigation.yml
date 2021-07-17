@@ -24,7 +24,7 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
+  - title: "News"
     url: "/blog/archive/"
 
 - title: "Search"

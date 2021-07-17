@@ -2,9 +2,9 @@
 layout: page
 title:  "7-17-2021 Update"
 subheadline:  "Lab Grand Opening"
-teaser: "The QVEU is officially opening Oct. 1, 2021"
+teaser: "The QVEU is officially opening October 1, 2021"
 categories:
-    - news
+    - post format
 tags:
     - news
     - qveu
