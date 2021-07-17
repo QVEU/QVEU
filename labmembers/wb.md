@@ -2,7 +2,7 @@
 layout: page
 subheadline:  "Visiting Fellow, QVEU"
 title:  "William Bakhache, Ph.D."
-teaser: "Ph.D., Univ. of Montpelier - 2021"
+teaser: "Ph.D. 2021, Univ. of Montpelier"
 categories:
     - design
 tags:

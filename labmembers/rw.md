@@ -2,7 +2,7 @@
 layout: page
 subheadline:  "Rebecca Walker - Postbac Researcher"
 title:  "Rebecca Walker"
-teaser: ""
+teaser: "B.S. 2021, Wake Forest University"
 
 categories:
     - design
@@ -12,7 +12,7 @@ tags:
     - labmember
 header: no
 image:
-    title: /images/logo.png #Photo here
+    title: logo.png #Photo here
     caption: Rebecca Walker
 ---
 "Rebecca Walker..."
