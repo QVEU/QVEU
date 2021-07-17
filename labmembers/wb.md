@@ -3,7 +3,6 @@ layout: page
 subheadline:  "Visiting Fellow, QVEU"
 title:  "William Bakhache, Ph.D."
 teaser: "Ph.D., Univ. of Montpelier - 2021"
-[e-mail](mailto:=====@nih.gov)  #e-mail here
 categories:
     - design
 tags:
@@ -12,7 +11,9 @@ tags:
     - labmember
 header: no
 image:
-    title: logo.png #photo here
+    title: logo.png
     caption: William Bakhache
 ---
 "William Bakhache earned his Ph.D. ..."
+
+{: .t60 }
