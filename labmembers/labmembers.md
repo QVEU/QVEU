@@ -7,6 +7,8 @@ header:
    image_fullwidth: "AerialDCBethesda.png"
 permalink: "/labmembers/"
 ---
-[Patrick T. Dolan](/labmembers/ptd.md), Unit Chief
-[William Bakhache](/labmembers/wb.md), Visiting Fellow
-[Rebecca Walker](/labmembers/rw.md), Post-bac IRTA Fellow
+* [Patrick T. Dolan](/labmembers/ptd.md), Unit Chief
+
+* [William Bakhache](/labmembers/wb.md), Visiting Fellow
+
+* [Rebecca Walker](/labmembers/rw.md), Post-bac IRTA Fellow

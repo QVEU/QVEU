@@ -8,7 +8,7 @@ header:
     image_fullwidth: "Aerial.png"
 ---
 
-We are always looking for good people to join the team!
+We are always looking for good people to join the team! Those interested in joining the team can inquire by sending a CV and cover letter to [Patrick Dolan](mailto:Patrick.Dolan@nih.gov).
 
 ## Projects include:
 
