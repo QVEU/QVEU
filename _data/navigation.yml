@@ -17,8 +17,7 @@
   - title: "William Bakhache"
     url: "/labmembers/wb/"
 - title: GitHub
-  baseURL: https://example.com
-  url: "/qveu"
+  url: "/redirected_page/"
   side: left
 
 - title: Blog
