@@ -11,9 +11,9 @@
   side: left
   dropdown:
   - title: "Patrick T. Dolan, Ph.D."
-    url: "/labmembers/ptd/"
+    url: "/_posts/labmembers/ptd/"
   - title: "Rebecca Walker"
-    url: "/labmembers/rw/"
+    url: "/_posts/labmembers/rw/"
 
 - title: GitHub
   url: "https://github.com/qveu"
