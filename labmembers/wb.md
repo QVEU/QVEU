@@ -11,12 +11,7 @@ tags:
     - labmember
 header: no
 image:
-    title: logo.png
+    title: logo.png #photo here
     caption: William Bakhache
 ---
 "William Bakhache earned his Ph.D. ..."
-
-### All Header-Styles
-{: .t60 }
-
-{% include list-posts tag='labmember' %}

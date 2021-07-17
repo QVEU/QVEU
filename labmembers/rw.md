@@ -3,6 +3,7 @@ layout: page
 subheadline:  "Rebecca Walker - Postbac Researcher"
 title:  "Rebecca Walker"
 teaser: ""
+[e-mail](mailto:=====@nih.gov)  #e-mail here
 categories:
     - design
 tags:
@@ -11,12 +12,7 @@ tags:
     - labmember
 header: no
 image:
-    title: logo.png
+    title: logo.png #Photo here
     caption: Rebecca Walker
 ---
-First turn of the header with `header: no`. Then add an image to with the following code. The caption is optional.
-
-### All Header-Styles
-{: .t60 }
-
-{% include list-posts tag='labmember' %}
+"Rebecca Walker..."
