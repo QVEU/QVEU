@@ -1,14 +1,14 @@
 ---
 layout: page
 subheadline: "Header"
-title: "Style your Header!"
-teaser: "These are your options to style the header of each webpage individually. <em>Feeling Responsive</em> uses <a href='http://srobbin.com/jquery-plugins/backstretch/'>Backstretch by Scott Robin</a> to expand them from left to right. The width should be 1600 pixel or higher using a ratio like 16:9 or 21:9 or 2:1."
+title: "The QVEU Team"
+teaser: "We are virologists, cell biologists and computational biologists interested in the evolution and emergence of RNA viruses."
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
+   image_fullwidth: "AerialDCBethesda.png"
 permalink: "/headers/"
 ---
 <ul>
-    {% for post in site.tags.header %}
+    {% for post in site.tags.labmember%}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
