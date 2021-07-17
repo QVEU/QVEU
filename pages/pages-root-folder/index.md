@@ -8,13 +8,13 @@ layout: frontpage
 header:
   image_fullwidth: Aerial.png
 
-widget1:
+widget2:
     title: "About The QVEU"
     url: 'http://qveu.github.io/QVEU/info/'
     image: PV.png
     text: 'The <em>QVEU</em> is an experimental and computational virology laboratory in the Laboratory of Viral Diseases at NIH-NIAID in Bethesda, MD.'
 
-widget2:
+widget3:
   title: "Lab Members"
   url: 'https://github.com/QVEU/labmembers/'
   image: CVB.png
