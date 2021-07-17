@@ -7,16 +7,17 @@
   side: left
 
 - title: "Lab Members"
-  url: "/headers/"
+  url: "/labmembers/"
   side: left
   dropdown:
   - title: "Patrick T. Dolan, Ph.D."
-    url: "/_posts/labmembers/ptd/"
+    url: "/labmembers/ptd/"
   - title: "Rebecca Walker"
-    url: "/_posts/labmembers/rw/"
+    url: "/labmembers/rw/"
 
 - title: GitHub
   url: "https://github.com/qveu"
+  side: left
 
 - title: Blog
   url: "/blog/"

@@ -1,14 +1,12 @@
 ---
 layout: page
-subheadline: "Header"
+subheadline: "Lab Members"
 title: "The QVEU Team"
 teaser: "We are virologists, cell biologists and computational biologists interested in the evolution and emergence of RNA viruses."
 header:
    image_fullwidth: "AerialDCBethesda.png"
-permalink: "/headers/"
+permalink: "/labmembers/"
 ---
-<ul>
-    {% for post in site.tags.labmember%}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+[Patrick T. Dolan](ptd.md), Unit Chief
+[William Bakhache](wb.md), Visiting Fellow
+[Rebecca Walker](rw.md), Post-bac IRTA Fellow
