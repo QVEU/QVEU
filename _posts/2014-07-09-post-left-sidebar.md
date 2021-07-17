@@ -1,12 +1,12 @@
 ---
 layout: page
 sidebar: left
-subheadline: Templates
+subheadline: Lab News
 title:  "7-17-2021 Updates"
 teaser: "The lab is officially opening October 1, 2021!"
 breadcrumb: true
 tags:
-    - post format
+    - news
 categories:
     - design
 image:
@@ -16,6 +16,6 @@ image:
 ---
 The *QVEU* is opening on October 1. We are excited to welcome our first lab members, Rebecca Walker, and Dr. William Bakhache!
 
-## Other Post Formats
+## Other Posts
 {: .t60 }
-{% include list-posts tag='post format' %}
+{% include list-posts tag='news' %}
