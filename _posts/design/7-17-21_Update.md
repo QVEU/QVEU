@@ -10,14 +10,6 @@ tags:
     - qveu
     - update
 ---
-The lab is getting organized and will be Open for Science on October 1, 2021. The QVEU would like to welcome post-bac [Rebecca Walker](/labmembers/rw/) and post-doc Dr. [William Bakhache](/labmembers/wb/) who have decided to join the lab to help get the QVEU started!
+The lab is getting organized and will be "Open for Science" on October 1, 2021. The QVEU would like to welcome post-bac [Rebecca Walker](/labmembers/rw/) and post-doc Dr. [William Bakhache](/labmembers/wb/) who have decided to join the lab to help get the QVEU started!
 
-
-~~~
-show_meta: true
-~~~
-
-
-## Other Post Formats
 {: .t60 }
-{% include list-posts tag='post format' %}
