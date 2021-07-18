@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 JUL 2021 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 JUL 2021 11:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1464,7 +1464,7 @@ Here is how much of TeX's memory you used:
  36585 multiletter control sequences out of 15000+600000
  663096 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,77p,998b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,77p,982b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}{
 /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/t
@@ -1472,7 +1472,7 @@ exlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 /texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (8 pages, 443324 bytes).
+Output written on main.pdf (8 pages, 443330 bytes).
 PDF statistics:
  376 PDF objects out of 1000 (max. 8388607)
  353 compressed objects within 4 object streams
