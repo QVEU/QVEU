@@ -16,7 +16,7 @@ widget1:
 
 widget2:
   title: "Lab Members"
-  url: 'https://github.com/QVEU/labmembers/'
+  url: 'http://qveu.github.io/QVEU/labmembers/'
   image: CVB.png
   text: 'Meet the Lab.'
 
