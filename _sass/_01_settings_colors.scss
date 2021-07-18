@@ -26,24 +26,25 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1               : #CC9933; //
-$ci-2               : #99CC66; //
-$ci-3               : #663366; //
-$ci-4               : #996699; //
-$ci-5               : #993333; //
-$ci-6               : #66CC99; //
+$ci-1               : #CC9933; // gold
+$ci-2               : #99CC66; // pale green
+$ci-3               : #663366; // dark purple
+$ci-4               : #996699; // light purple
+$ci-5               : #993333; // dark red
+$ci-6               : #66CC99; // seafoam
+
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color      : $ci-6;
-$secondary-color    : $ci-1;
+$primary-color      : $ci-3;
+$secondary-color    : $ci-6;
 $alert-color        : $ci-5;
 $success-color      : $ci-2;
-$warning-color      : $ci-4;
-$info-color         : $ci-3;
+$warning-color      : $ci-1;
+$info-color         : $ci-4;
 
 
 
@@ -76,7 +77,7 @@ $topbar-bg-color    : $body-bg;
 $topbar-bg          : $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: $ci-1;
+$topbar-dropdown-toggle-color: $ci-4;
 
 $topbar-link-color  : #000;
 $topbar-link-color-hover: #000;
