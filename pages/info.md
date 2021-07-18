@@ -16,7 +16,7 @@ Fully-funded postdoctoral positions are available to develop independent project
 
 ## Projects include:
 
-* Single-cell sequencing of infection in animal models.
-* Deep mutational scanning of viral proteins.
-* Ancestral state reconstruction of viral evolution histories.
-* High content microscopic creening of cell phenotypes.
+* Single-cell sequencing of host responses and viral population dynamics during infection in animal models.
+* Phylogenetically- and structurally-informed mutational scanning of viral proteins.
+* Ancestral state reconstruction and experimental interrogation of viral evolutionary histories.
+* High-content microscopic screening of infected cell phenotypes.
