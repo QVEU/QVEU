@@ -20,7 +20,7 @@
   url: "/redirect/"
   side: left
 
-- title: Blog
+- title: Lab News
   url: "/blog/"
   side: left
   dropdown:
