@@ -16,16 +16,17 @@
     url: "/labmembers/rw/"
   - title: "William Bakhache, Ph.D."
     url: "/labmembers/wb/"
-- title: GitHub
-  url: "/redirect/"
-  side: left
 
 - title: Lab News
   url: "/blog/"
   side: left
   dropdown:
-  - title: "News"
+  - title: "Archive"
     url: "/blog/archive/"
+
+- title: GitHub
+  url: "/redirect/"
+  side: left
 
 - title: "Search"
   url: "/search/"
