@@ -228,7 +228,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
- google_analytics_tracking_id: G-S97DDDK9CM
+# google_analytics_tracking_id:
 
 
 #     ___              _     __           __

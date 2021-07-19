@@ -5,7 +5,7 @@ meta_title          : "Contact"
 subheadline         : "Contact the Lab."
 permalink           : "/contact/"
 ---
-The QVEU is at NIH Headquarters in Bethesda, MD, in Building 33, C.W. Bill Young Center for Biodefense and Emerging Infectious Diseases, Room 1E13. <br/><br/>
+The QVEU is at NIH Headquarters in Bethesda, MD, in Building 33, the C.W. Bill Young Center for Biodefense and Emerging Infectious Diseases, Room 1E13.<br/><br/>
 
 
 ###All correspondence can be directed to:<br/>
