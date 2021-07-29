@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 JUL 2021 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  29 JUL 2021 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1372,7 +1372,7 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 
 
 ]
-<unitlab.png, id=214, 580.1675pt x 585.18625pt>
+<unitlab.png, id=218, 580.1675pt x 585.18625pt>
 File: unitlab.png Graphic file (type png)
 <use unitlab.png>
 Package pdftex.def Info: unitlab.png  used on input line 82.
@@ -1383,86 +1383,191 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 83.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 83.
-
-Underfull \vbox (badness 3590) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 114.
- [2 <./unitlab.png>] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-[]\T1/XCharter-TLF/m/n/10 (+20) The lab Slack chan-nel can be found at:
- []
+(Font)              scaled to size 10.0pt on input line 120.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[2 <./unitlab.png>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-\T1/XCharter-TLF/m/n/10 (+20) Currently, the lab stan-dard
+Underfull \hbox (badness 7722) in paragraph at lines 159--161
+\T1/XCharter-TLF/b/n/10 Some gen-eral safety guide-lines for the lab
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-\T1/XCharter-TLF/m/n/10 (+20) for lab note-books is Bench-ling
+Underfull \hbox (badness 1178) in paragraph at lines 191--192
+[]\T1/XCharter-TLF/b/n/10 Have you done ad-e-quate prepa-ra-tion (i.e.
  []
 
-
-Underfull \hbox (badness 2376) in paragraph at lines 266--269
-\T1/XCharter-TLF/m/n/10 (+20) Use GitHub for ver-sion con-trol. Our lab uses
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 286--287
-[]\T1/XCharter-TLF/m/n/10 (+20) : In-ter-ac-tive De-vel-op-ment En-vi-ron-ment
- []
-
-
-Underfull \hbox (badness 6047) in paragraph at lines 287--288
-[]\T1/XCharter-TLF/m/n/10 (+20) : In-ter-ac-tive (browser-based)
- []
-
-<Core_Competencies-02.png, id=303, 454.0965pt x 203.0787pt>
+<Core_Competencies-02.png, id=243, 454.0965pt x 203.0787pt>
 File: Core_Competencies-02.png Graphic file (type png)
 <use Core_Competencies-02.png>
-Package pdftex.def Info: Core_Competencies-02.png  used on input line 291.
+Package pdftex.def Info: Core_Competencies-02.png  used on input line 197.
 (pdftex.def)             Requested size: 483.69687pt x 216.31596pt.
-[6]
-Overfull \hbox (19.32234pt too wide) in paragraph at lines 302--315
+
+Overfull \hbox (19.32234pt too wide) in paragraph at lines 208--221
  [][] 
  []
 
 
-Underfull \vbox (badness 2573) has occurred while \output is active []
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
- [7 <./Core_Competencies-02.png>] 
+ [4]
+[5 <./Core_Competencies-02.png>]
+Underfull \hbox (badness 8075) in paragraph at lines 230--231
+[]\T1/XCharter-TLF/b/n/10 The lab Slack chan-nel can be found at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 234--235
+\T1/XCharter-TLF/b/n/10 cam-pus and on government-issued equip-ment.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\T1/XCharter-TLF/b/n/10 Currently, the lab stan-dard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\T1/XCharter-TLF/b/n/10 for lab note-books is Bench-ling
+ []
+
+
+Overfull \hbox (17.6595pt too wide) in paragraph at lines 250--251
+[]\T1/XCharter-TLF/b/n/10 https://benchling.com/organizations/ptdlab/projects[]
+.
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 250--251
+\T1/XCharter-TLF/b/n/10 stock lo-ca-tion and an-no-ta-tion) and molec-u-lar
+ []
+
+[6]
+Underfull \hbox (badness 2608) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 Each per-son will be given an NIH com-puter.
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 You can have a Mac, Win-dows, and, per-haps
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 upon ne-go-ti-a-tion, a Linux com-puter. Some
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 nice pre-configured op-tions are avail-able from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 some-thing spe-cific, es-pe-cially for com-pu-ta-
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 tional work. Just talk to Patrick to ar-range
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 this. In ad-di-tion to re-sources in the lab, we
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 also have ac-cess to the com-put-ing clus-ter at
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 NIH, ^^PBIOwulf^^Q: []https://hpc.nih.gov/systems/[].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 Ac-cess can be re-quested through the IT.
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 Jobs are sub-mit-ted us-ing Slurm job sub-mis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 sion: []https://hpc.nih.gov/docs/biowulf-cheat-
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 NOTE: All com-mu-ni-ca-tions are mon-i-tored on
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 266--270
+\T1/XCharter-TLF/b/n/10 cam-pus and on government-issued equip-ment.
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 279--280
+[]\T1/XCharter-TLF/b/n/10 : In-ter-ac-tive (browser-based)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+\T1/XCharter-TLF/b/n/10 be-fore sub-mis-sion, in-clud-ing col-lab-o-ra-tors'
+ []
+
+[7]
+Underfull \hbox (badness 1708) in paragraph at lines 303--304
+[]\T1/XCharter-TLF/b/n/10 Develop men-tor-ship skills. Men-tor ju-nior
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 339--340
+[]\T1/XCharter-TLF/b/n/10 Mentor post-bacs, grad-u-ate stu-dents, and
+ []
+
+[8] 
 AED: lastpage setting LastPage
-[8
+[9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 05CBD80D28117F7CFF5FD4200A2FD0E5;3561.
+(rerunfilecheck)             Checksum: 2CAF19A6C2A42983F998DBD8D5E6BBBF;3617.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21343 strings out of 480608
- 365333 string characters out of 5903631
- 1053956 words of memory out of 5000000
- 36585 multiletter control sequences out of 15000+600000
- 663096 words of font info for 193 fonts, out of 8000000 for 9000
+ 21326 strings out of 480608
+ 364835 string characters out of 5903631
+ 1055959 words of memory out of 5000000
+ 36586 multiletter control sequences out of 15000+600000
+ 660749 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,11n,77p,982b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}{
@@ -1472,10 +1577,10 @@ exlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 /texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (8 pages, 443330 bytes).
+Output written on main.pdf (9 pages, 445631 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 114 named destinations out of 1000 (max. 500000)
- 35219 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 35227 words of extra memory for PDF output out of 35830 (max. 10000000)
 
