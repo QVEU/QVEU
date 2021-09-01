@@ -85,7 +85,7 @@
 % Headers
 \lhead{} % Left header
 \chead{\textit{\thetitle}} % Center header - currently printing the article title
-\rhead{} % Right header
+\rhead{\includegraphics{../images/logo_block}} % Right header
 
 % Footers
 \lfoot{} % Left footer
@@ -95,6 +95,7 @@
 \fancypagestyle{firstpage}{ % Page style for the first page with the title
 	\fancyhf{}
 	\renewcommand{\footrulewidth}{0pt} % Suppress footer rule
+	%\renewcommand{\headheight}{12pt}
 }
 
 %----------------------------------------------------------------------------------------
@@ -121,9 +122,9 @@
 \preauthor{} % Anything that will appear before \author is printed
 
 \postauthor{ % Anything that will appear after \author is printed
-	\vspace{10pt} % Space before the rule
+	\vspace{0pt} % Space before the rule
 	\par\HorRule % Horizontal rule after the title
-	\vspace{20pt} % Space after the title section
+	\vspace{0pt} % Space after the title section
 }
 
 %----------------------------------------------------------------------------------------

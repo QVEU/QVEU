@@ -19,19 +19,38 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt, a4paper, twocolumn]{article} % 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
+\documentclass[10pt, letterpaper, twocolumn]{article} % 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
 
 \input{structure.tex} % Specifies the document structure and loads requires packages
+\usepackage{titling}
+\usepackage{graphicx}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{xcolor}
+
+\usepackage{lipsum}
+\setlength\headheight{20pt} %% just to make warning go away. Adjust the value after looking into the warning.
+% \rhead{{\color{blue}\rule{1cm}{1cm}}}
+
+\rhead{\includegraphics[width=2cm]{../images/logo_block}}
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=3.43cm,height=2.26cm]{../images/logo_block}\\
+}
+\posttitle{\end{center}}
 
 \title{Quantitative Virology and Evolution Unit Laboratory Manual} % The article title
 
 \author{
 	\authorstyle{Patrick T. Dolan, Ph.D.\textsuperscript{1}} % Authors
-	\newline\newline % Space before institutions
+	\newline % Space before institutions
 	\textsuperscript{1}\institution{Unit Chief, Quantitative Virology and Evolution Unit, Laboratory of Viral Diseases, NIH-NIAID, Bethesda, MD, United States of America}\\ % Institution 1
 }
 
@@ -52,7 +71,7 @@
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
 
-\lettrineabstract{The purpose of this document is to lay out general expectations and provide information for members of the Quantitative Virology and Evolution Unit (QVEU). This is a living document that will change as the lab changes. Please read it thoroughly. If anything in this document seems incorrect, outdated, or you think a process can be improved, please bring it up to Patrick or the group. Even though this is not a permanent document it is important that we all agree to follow the expectations as defined here and respect the process as it’s set forth.}
+\lettrineabstract{The purpose of this document is to lay out general expectations and provide information for members of the Quantitative Virology and Evolution Unit (QVEU). This is a living document that will change as the lab changes. Please read it thoroughly. If anything in this document seems incorrect, outdated, or you think a process or policy can be improved, please bring it up to Patrick or the group. Even though this is not a permanent document it is important that we all agree to follow the expectations as defined here and respect the process as it’s set forth.}
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
@@ -101,7 +120,7 @@ NOTE: If you are planning, or might plan, to do any BSL3 work, we should discuss
 \item Get fingerprints recorded (can be done remotely).
 \item Get PIV card ("ID Badge") at NIH security office .
 \item Complete necessary trainings in lab safety, security, and bloodborne pathogens (online or in-person).
-\item Complete computational bootcamp. Learn basics of GitHub, R, and python. Get necessary software (see 'Software') installed on computer. Get access to storage space and BioWULF server, learn how to submit jobs.
+\item Complete computational bootcamp. Learn basics of GitHub, R, and python. Get necessary software (see 'Software') installed on your Government-issued device. Get access to storage space and BioWULF server, learn how to submit jobs.
 \item Complete lab tour and orientation.	Learn where things are, how things work, where to order, where to shop on campus for equipment and reagents.
 \end{enumerate}
 
@@ -110,16 +129,18 @@ NOTE: If you are planning, or might plan, to do any BSL3 work, we should discuss
 It is my responsibility to provide you with a safe, supportive, and productive environment for you to work, train, and study. I hope all lab members will become active participants in creating a lab culture of curiosity, rigor, and shared success. These are a few expectations I hope will provide a substrate on which that culture can grow.
 
 \subsubsection{Working Hours}
-There are no specific "working hours" for the lab, but the lab will operate around a 9-to-5 schedule. This means lab meetings, discussion, 1-on-1's, seminars, and trainings will be scheduled between 9AM and 5PM Monday-Friday. Schedules are sometimes irregular due to experimental timelines, variable workloads, equipment schedules, or commitments at home. You can keep a schedule that works for you as long as you are productive and you attend the scheduled lab meetings. If there is an important conflict with the scheduled lab meetings we will find a new time that works for all lab members. The lab will not close on weekends, but I do expect you to use your weekends to recharge for the week.
+There are no specific "working hours" for the lab, but official lab activities will operate ona 9-to-5 schedule. This means lab meetings, discussion, 1-on-1's, seminars, and trainings will be scheduled between 9AM and 5PM Monday-Friday. Schedules are sometimes irregular due to experimental timelines, variable workloads, equipment schedules, or commitments at home. You can keep a schedule that works for you as long as you are productive and you attend the scheduled lab meetings. If there is an important conflict with the scheduled lab meetings we will find a new time that works for all lab members. The lab will not close on weekends, but I do expect you to use your weekends to recharge for the week as needed.
 
-\subsubsection{Working remotely} Working remotely is sometimes conducive to completing a writing or coding task, but being in the lab helps to foster communication, coordination, and creativity through organic conversation between lab members and others on the NIH campus. Working remotely is a privilege and not a right. All members of the lab are expected to be in the lab for all lab meetings and seminars.
+\subsubsection{Working remotely} Working remotely is sometimes conducive to completing a writing or coding task, but being in the lab helps to foster communication, coordination, and creativity through organic conversation between lab members and others on the NIH campus. Working remotely is a privilege and not a right. All members of the lab are expected to be in the lab for all lab meetings and seminars. {\bfseries COVID-19 note:} The unique situation presented by COVID-19 means that remote work will be a necessary part of the lab indefinitely. It is critical that we prioritize the wet-lab work onsite, and perform writing and coding projects off-site as necessary. This will require extra coordination and organization across the lab group. We will rely on the lab Slack and other scheduling tools as necessary to facilitate this coordination.
 
-\subsubsection{Lab absences} If you need to be out of the lab for more than a day, please put this on the lab calendar along with whether you are available to be contacted. You can also put up a status on Slack. This helps everyone know not to bother you (except in an emergency), or to store deliveries that may need special handling.
+\subsubsection{Lab absences} If you expect to be out of the lab for more than a day, please put this on the lab calendar along with whether you are available to be contacted. You can also put up a status on Slack. This helps everyone know not to bother you (except in an emergency), or to store deliveries that may need special handling.
+
+\subsubsection{Illness} You should make every effort to avoid coing to lab if you have a contagious illness. Contact your labmates to cover for you, if necessary. If you do need to come to work for an urgent reason, minimize contact with your co-workers, wear a mask, and wash your hands regularly to avoid transmission.
 
 \subsubsection{Vacation} I expect you to take advantage of the weekends and vacation time you have. I want you to balance your mental health and well-being with your productivity. Please do your best to plan vacations around important deadlines and give yourself and your collaborators ample time to plan ahead.
 
 \subsubsection{Language}
-Since English will be the language we use to write and present our work, please speak English in the lab and office with your colleague and coworkers. It is important to avoid misunderstandings, facilitate interactions, and prevent isolation. It also gives those for whom English is not a first language more opportunities to practice speaking about their work in English.
+Since English will be the language we use to write and present our work, please speak and write in English in the lab and office with your colleagues and coworkers. It is important to avoid misunderstandings, facilitate interactions, and prevent isolation. It also gives those for whom English is not a first language more opportunities to practice speaking about their work in English.
 
 \subsubsection{Dress code} There is no dress code beyond any set forth by the NIH, but you should be presentable when on campus and dress with safety in mind. There are lockers available for those who may want to change into lab clothes, lab shoes, or scrubs prior to work. You can request a locker with the admin team when you arrive on campus.
 
@@ -136,7 +157,7 @@ Working at the NIH is a tremendous privilege and it is critical that we treat th
 In order to encourage the maintenance of the lab in good working order, the lab will have a shutdown each spring where we thouroughly clean, declutter, and inventory the lab and any equipment that requires repair, replacement, or to be sent to surplus can be identified. We will also regularly clean the lab space with 5\% bleach and then 60\% ethyl/isopropyl alcohol.
 
 \subsubsection{Being a good lab citizen}
-Science is sometimes difficult, but made easier through the support of our labmates. I want members of the lab to be generous with their time, resources, and expertise. I expect you to participate in group meetings, give constructive feedback, ask questions, suggest experiments, offer assistance, and generally support the work of your labmates. You should expect the same of them. We should be understanding of others' working styles and, when possible, flex to work with them in a way that they are comfortable. I want us all to build a culture of shared success and not one of competition.
+Science is sometimes difficult, but made easier through the support of our labmates. I want members of the lab to be generous with their time, resources, and expertise. I expect you to participate in group meetings, give constructive feedback, ask questions, suggest experiments, offer assistance, and generally support the work of your labmates. You should expect the same of them. We should be understanding of others' working styles and, when possible, flex to work with them in a way that they are comfortable. I want us all to build a culture of shared success and not one of intra-lab competition.
 
 \subsubsection{Conflict Resolution}
 Working together for years, sometimes under pressure, in small spaces can naturally lead to disagreements and conflicts. As adults, we should all be willing to be deal with issues directly, professionally, and honestly. We should also be aware and understanding of others' boundaries, preferences, and customs, and avoid issues where possible. When serious interpersonal issues arise in the QVEU or LVD, they should be brought to Patrick's attention as soon as possible.
@@ -198,7 +219,7 @@ If you do not know the appropriate {\it hygiene, equipment, decontamination or l
   \caption{Biweekly cycle schedule.}
 \end{figure*}
 \subsection{Lab Meetings}
-Traditional lab meeting/journal club models are not always effective at engaging all members of the lab effectively.  In addition, our lab is small and we are just getting started so there will be a lot of troubleshooting and optimization, so we are going to experiment with a modified version of the "Scrum" or "Agile" project management style which will allow us to collaborate effectively as we set up the lab. This will probably take a few months to get right, but we will improve it together.
+Traditional lab meeting/journal club models are not always effective at engaging all members of the lab effectively.  In addition, our lab is small and we are just getting started so there will be a lot of troubleshooting and optimization, so we are going to experiment with a modified version of the "Scrum" or "Agile" project management style \citep{May2019-kp} which will allow us to collaborate effectively as we set up the lab. This will probably take a few months to get right, but we will improve it together.
 
 In this framework, work is broken into "cycles" of some length of time (e.g. 2-3 weeks). At the beginning of each cycle each individual in the lab, including the PI, chooses goals for that cycle (2-3 goals appropriate to the cycle length) that are part of their larger project. Then, the team will meet regularly (every 2-3 days) to discuss their progress and identify any challenges in short, 15 minute meetings. At the final short meeting in a cycle (Day 10), the team will nominate items to be discussed at the "Cycle Review". Cycle Review is a more formal 90 minute meeting where we discuss the nominated results, manuscripts, recent publications, or practice presentations in more depth (more like a traditional lab meeting). At each Cycle Review, we will also have a Cycle Retrospective where we will evaluate any challenges we encountered and discuss whether the process itself can be improved or adapted to better suit our needs.
 
@@ -223,6 +244,7 @@ In this framework, work is broken into "cycles" of some length of time (e.g. 2-3
 This structure should only form the minimum interactions you have with me and your other labmates. My door (and Slack) is always open to brainstorm, troubleshoot, plan, or write. If you feel you need to structure our interactions in a way that works better for you (e.g. daily check-ins or weekly 1-on-1's), put that on the calendar or talk to me and we can arrange it.
 
 \subsection{Communication}
+{\bfseries NOTE: All communications are monitored on campus and on government-issued equipment. Please keep this in mind and behave appropriately.}
 
 \subsubsection{Slack}
 Slack is the preferred method for communication in the lab. It's an instant messaging app that allows you to manage topic-specific channels for discussion with specific groups of users. It’s incredibly useful for sharing data and papers, sending calendar reminders, or quickly alerting the lab of freezer malfunctions. When you are added to the lab slack, you will be automatically added to general channels: 'general', 'science-literature', 'lab-organization'. If there are channels that might be useful, feel free to add them and invite the group. You can send messages to specific people with the "@username" function, or you can callout to the group with "@here", "@channel" or "@everyone". You can download the app to your phone or computer. Notifications can be muted outside of specified hours.
@@ -231,7 +253,6 @@ The lab Slack channel can be found at: \href{https://QVEU.slack.com}{https://QVE
 
 Request access using \href{https://join.slack.com/t/qveu/shared_invite/zt-sspu46d0-mJUV8OjwjOoJTaFyPKGlZg}{this link}.\newline
 
-NOTE: All communications are monitored on campus and on government-issued equipment. Please keep this in mind and behave appropriately.
 
 \subsubsection{Lab Mailing List}
 In addition to Slack, which should be the most reliable method of communicating, the lab e-mail list is [INSERT LAB MAILING LIST]. This is especially handy for looping other folks outside the lab into lab-wide conversations. Patrick will add you.
@@ -275,7 +296,7 @@ A few of the software you can install for use in the lab are:
 \item [Atom]: Text and code editor that works well with GitHub repositories. Excellent for editing latex files.
 \item [bbedit]: General purpose text and code editor.
 \item [R]: General purpose, open-source statistical computing language. Many packages are also available for specific tasks, e.g. explore "BioconductoR" packages and the "tidyverse".
-\item [RStudio]: Interactive Development Environment (IDE) for R scripting and plotting.
+\item [RStudio]: Interactive Development Environment (IDE) for R scripting and plotting. Cheatsheets for R packages can be found \href{https://www.rstudio.com/resources/cheatsheets/}{online}.
 \item [Jupyter Notebook]: Interactive (browser-based) notebook for python, R and Julia scripting.
 \end{description}
 
@@ -355,6 +376,8 @@ In execution of those responsibilities, I will do my best to:
 \item Maintain the lab's reputation by acting with integrity and generosity, being a careful steward of our funds, recruiting the best people I can, and promoting our work actively.
 \end{enumerate}
 
+\subsection{Acknowledgements}
+This document was heavily influenced by similar lab expectation documents shared Gavin Sherlock (Stanford), John Boothroyd (Stanford), and resources and materials provided by the Office of Career and Professional Development (OCPD) at UCSF. It was also improved by many rounds of comment and revision by colleagues at different career stages.
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------

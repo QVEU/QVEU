@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  29 JUL 2021 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 SEP 2021 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1106,65 +1106,80 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count417
+\l__pdf_internal_box=\box50
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count418
+\g__xparse_grabber_int=\count419
+\l__xparse_m_args_int=\count420
+\l__xparse_v_nesting_int=\count421
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
 LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
-t line 45.
+t line 64.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
+(Font)              scaled to size 10.0pt on input line 64.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count417
-\l__pdf_internal_box=\box50
-)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 45.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4
-5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
+4.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 45.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 4
-5.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6
+4.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \microtypecontext on input line 45.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Info: Redefining \microtypecontext on input line 64.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 45.
+LaTeX Info: Redefining \showhyphens on input line 64.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1175,29 +1190,21 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 )
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count418
+\scratchcounter=\count422
 \scratchdimen=\dimen256
 \scratchbox=\box51
-\nofMPsegments=\count419
-\nofMParguments=\count420
+\nofMPsegments=\count423
+\nofMParguments=\count424
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count421
+\MPscratchCnt=\count425
 \MPscratchDim=\dimen257
-\MPnumerator=\count422
-\makeMPintoPDFobject=\count423
+\MPnumerator=\count426
+\makeMPintoPDFobject=\count427
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1208,26 +1215,26 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 45.
+(lastpage)             ! on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(28.45274pt, 773.91498pt, 42.67912pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=706.91498pt
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 723.83812pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=656.83812pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-43.81725pt
-* \headheight=12.0pt
+* \headheight=20.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -1244,10 +1251,10 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count424
-\c@mv@boldtabular=\count425
+\c@mv@tabular=\count428
+\c@mv@boldtabular=\count429
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 64.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1258,11 +1265,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count426
+\c@section@level=\count430
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1285,10 +1292,19 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-8.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 67.
+<../images/logo_block.png, id=213, 278.4804pt x 183.8067pt>
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 67.
+(pdftex.def)             Requested size: 97.59282pt x 64.30244pt.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
+7.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
@@ -1317,13 +1333,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 48.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1332,7 +1346,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1342,135 +1356,172 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 48.
+(Font)              scaled to size 7.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 48.
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
+(Font)              scaled to size 8.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 55.
+(Font)              scaled to size 10.0pt on input line 74.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 28.94pt on input line 55.
+(Font)              scaled to size 28.94pt on input line 74.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 42.55861pt on input line 55.
+(Font)              scaled to size 42.55861pt on input line 74.
 Package lettrine.sty Info: Targeted height = 28.94pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 28.93987pt (\color {Grey}{T});
-(lettrine.sty)             reported on input line 55.
+(lettrine.sty)             reported on input line 74.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 55.
+(Font)              scaled to size 10.0pt on input line 74.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 14.4pt on input line 80.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 14.4pt on input line 80.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 62.
-[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              scaled to size 12.0pt on input line 81.
+ [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-<unitlab.png, id=218, 580.1675pt x 585.18625pt>
+ <../images/logo_block.png>]
+<unitlab.png, id=228, 580.1675pt x 585.18625pt>
 File: unitlab.png Graphic file (type png)
 <use unitlab.png>
-Package pdftex.def Info: unitlab.png  used on input line 82.
-(pdftex.def)             Requested size: 231.88997pt x 233.89177pt.
+Package pdftex.def Info: unitlab.png  used on input line 101.
+(pdftex.def)             Requested size: 240.28354pt x 242.36559pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 83.
+(Font)              scaled to size 9.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 83.
+(Font)              scaled to size 9.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 83.
+(Font)              scaled to size 9.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 120.
+(Font)              scaled to size 10.0pt on input line 135.
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 135.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
 
-[2 <./unitlab.png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+Package Fancyhdr Warning: \headheight is too small (20.0pt): 
+Make it at least 41.16005pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2 <./unitlab.png>]
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 164.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
-
-Underfull \hbox (badness 1087) in paragraph at lines 151--153
-\T1/XCharter-TLF/b/n/10 Situational aware-ness \T1/XCharter-TLF/m/n/10 (+20) is
- the key to safety. Ev-
- []
-
-<Core_Competencies-02.png, id=243, 454.0965pt x 203.0787pt>
+<Core_Competencies-02.png, id=252, 454.0965pt x 203.0787pt>
 File: Core_Competencies-02.png Graphic file (type png)
 <use Core_Competencies-02.png>
-Package pdftex.def Info: Core_Competencies-02.png  used on input line 197.
-(pdftex.def)             Requested size: 483.69687pt x 216.31596pt.
-
-Overfull \hbox (19.32234pt too wide) in paragraph at lines 208--221
+Package pdftex.def Info: Core_Competencies-02.png  used on input line 218.
+(pdftex.def)             Requested size: 500.484pt x 223.82417pt.
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 225.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
+[4]
+Overfull \hbox (2.53522pt too wide) in paragraph at lines 229--242
  [][] 
  []
 
-[4] [5 <./Core_Competencies-02.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 []\T1/XCharter-TLF/m/n/10 (+20) The lab Slack chan-nel can be found at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-\T1/XCharter-TLF/m/n/10 (+20) Currently, the lab stan-dard
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 262.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
+[5 <./Core_Competencies-02.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]\T1/XCharter-TLF/m/n/10 (+20) https://benchling.com/organizations/ptdlab/proj
+ects[].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-\T1/XCharter-TLF/m/n/10 (+20) for lab note-books is Bench-ling
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 256--261
+Underfull \hbox (badness 4454) in paragraph at lines 277--282
 \T1/XCharter-TLF/m/n/10 (+20) Use GitHub for ver-sion con-trol. Our lab uses
  []
 
+
+Underfull \hbox (badness 1127) in paragraph at lines 277--282
+\T1/XCharter-TLF/m/n/10 (+20) GitHub for ver-sion con-trol and soft-ware doc-u-
+men-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 277--282
+\T1/XCharter-TLF/m/n/10 (+20) ta-tion. We have a github repos-i-tory for the la
+b
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 287--291
+\T1/XCharter-TLF/m/n/10 (+20) sub-mis-sion: []https://hpc.nih.gov/docs/biowulf-
+cheat-
+ []
+
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 291.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
 [6]
-Underfull \hbox (badness 2165) in paragraph at lines 278--279
-[]\T1/XCharter-TLF/m/n/10 (+20) : In-ter-ac-tive De-vel-op-ment En-vi-ron-ment
- []
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 328.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
+ [7]
+Underfull \vbox (badness 1308) has occurred while \output is active []
 
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 384.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
+ [8]
 
-Underfull \hbox (badness 6047) in paragraph at lines 279--280
-[]\T1/XCharter-TLF/m/n/10 (+20) : In-ter-ac-tive (browser-based)
- []
-
-[7] [8] 
 AED: lastpage setting LastPage
+File: ../images/logo_block.png Graphic file (type png)
+<use ../images/logo_block.png>
+Package pdftex.def Info: ../images/logo_block.png  used on input line 389.
+(pdftex.def)             Requested size: 56.9055pt x 37.56001pt.
 [9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2CAF19A6C2A42983F998DBD8D5E6BBBF;3617.
+(rerunfilecheck)             Checksum: DA53B0B45D6AF91BC9DD1A51CB1E9B9B;3751.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21347 strings out of 480608
- 365366 string characters out of 5903631
- 1055959 words of memory out of 5000000
- 36586 multiletter control sequences out of 15000+600000
- 663096 words of font info for 193 fonts, out of 8000000 for 9000
+ 21901 strings out of 480608
+ 381350 string characters out of 5903631
+ 1160633 words of memory out of 5000000
+ 37128 multiletter control sequences out of 15000+600000
+ 667751 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,77p,982b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,15n,77p,982b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}{
 /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/t
@@ -1478,10 +1529,10 @@ exlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local
 /texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (9 pages, 444138 bytes).
+Output written on main.pdf (9 pages, 475800 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 117 named destinations out of 1000 (max. 500000)
- 35227 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 35248 words of extra memory for PDF output out of 35830 (max. 10000000)
 
