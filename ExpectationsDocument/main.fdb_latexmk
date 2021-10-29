@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1635268073 "main.aux" "main.bbl" "main" 1635268133
+["bibtex main"] 1635520158 "main.aux" "main.bbl" "main" 1635520161
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1609451401 65407 88927b81d8f6cedfef1300ccf61cbd6b ""
   "example.bib" 1634579816 2452 dab32662e138c4fe9de5445ead989713 ""
-  "main-blx.bib" 1635268132 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
-  "main.aux" 1635268132 13368 4d57f5e84c9e8a6f4a5a94a5f689bde2 "pdflatex"
+  "main-blx.bib" 1635520161 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
+  "main.aux" 1635520161 13367 827dee31f676f2e0ebbacbeed3a139b8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1635268130 "main.tex" "main.pdf" "main" 1635268133
+["pdflatex"] 1635520159 "main.tex" "main.pdf" "main" 1635520161
   "../images/logo_block.png" 1634579816 23761 bba6ee57a0927c88f9c2c61e281977ac ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1606428162 3148 bd2d2f64284824eccbbb6aa07b7feccd ""
@@ -182,17 +182,17 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1634664853 2724738 9d7e7ad65b11b9ffa8e4184207191abd ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "Core_Competencies-02.png" 1634579816 108945 d192e884806a6673da664029e1a47cfc ""
-  "main.aux" 1635268132 13368 4d57f5e84c9e8a6f4a5a94a5f689bde2 "pdflatex"
-  "main.bbl" 1635268073 3593 a1f937c5fe7bebc8c68be7de0580d332 "bibtex main"
-  "main.out" 1635268132 8729 05efc934f8abd2f20796a3fb82b9d4c5 "pdflatex"
-  "main.run.xml" 1635268132 2559 909c0cfb644a15a03fd756a5181d37b9 "pdflatex"
-  "main.tex" 1635268130 40596 9b35ccba5b47404da41f479b6850cb18 ""
+  "main.aux" 1635520161 13367 827dee31f676f2e0ebbacbeed3a139b8 "pdflatex"
+  "main.bbl" 1635520159 3593 a1f937c5fe7bebc8c68be7de0580d332 "bibtex main"
+  "main.out" 1635520161 8724 2472d6075ae24b40fdd2b8c149198b4a "pdflatex"
+  "main.run.xml" 1635520161 2559 909c0cfb644a15a03fd756a5181d37b9 "pdflatex"
+  "main.tex" 1635520155 40720 f4ce126b888dcdf67a63f9964fbf536d ""
   "structure.tex" 1634579816 6315 6cd3cc586aa6fceadf2440c9b8412cc0 ""
   "unitlab.png" 1634579816 269827 a9147bcdfe5ea5345bfe8b9d09bcbc6b ""
   (generated)
-  "main.pdf"
-  "main.aux"
-  "main.run.xml"
-  "main-blx.bib"
   "main.out"
   "main.log"
+  "main.run.xml"
+  "main-blx.bib"
+  "main.pdf"
+  "main.aux"
