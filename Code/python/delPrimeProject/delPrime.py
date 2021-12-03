@@ -42,10 +42,11 @@ def seqWalk(inputSeq,delLength,start=0,end=0):
         windowSize: minimum primer length (will add bases until TmDes is achieved.
     Returns:  outputString - string for output csv file. 
 '''
-def windowSizing(position,delLength,inputSeq,tmDes,windowSize):
+def windowSizing(position,delLength,inputSeq,tmDes,windowSizeMin):
     #reversePrimer (left)
     inputSeq= inputSeq.upper()
     TM=0.0
+    windowSize=windowSizeMin
     while TM<tmDes:
         primerR_for=inputSeq[(position-windowSize-2):position-2]
         TM=Tm(primerR_for)
@@ -57,6 +58,7 @@ def windowSizing(position,delLength,inputSeq,tmDes,windowSize):
     
     #forwardPrimer (right)
     TM=0.0
+    windowSize=windowSizeMin
     while TM<=tmDes:
         primerF=inputSeq[(position+delLength-2):(windowSize+position-2)]
         TM=Tm(primerF)
@@ -66,8 +68,9 @@ def windowSizing(position,delLength,inputSeq,tmDes,windowSize):
     
     #overlap
     TM=0.0
+    windowSize=windowSizeMin
     overlap=5
-    while TM<tmDes+3:
+    while TM<(tmDes+3):
         Fflank=primerR_for[(len(primerR_for)-overlap):len(primerR_for)]
         delPrimerF=(Fflank.lower()+primerF)
         
