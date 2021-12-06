@@ -1,14 +1,13 @@
 #delPrime.py: script for designing deletional primer pools
 #author: Patrick T. Dolan, QVEU-NIAID-NIH
 #USAGE: python3 delPrime.py ./sequenceFileAsSingleLine.txt OutputFileName.txt <deletionSize int (e.g. 3)> <startSite (1 indexed)> <endSite (1 indexed)> 
-#Imports
 
+#Imports
 from Bio.SeqUtils import MeltingTemp
 from Bio.Seq import Seq
 import sys
 
 #Functions
-
 ''' Function: Tm()
         Takes primer sequence and compute melting temp. 
     Args:     primerSeq (string) 
@@ -105,7 +104,7 @@ def windowSizing(position,delLength,inputSeq,tmDes,windowSizeMin):
 if __name__ == "__main__":
     #defaults
     tmDes=52
-    windowSize=8
+    windowSize=8 #minimum priming region length
 
     seqFile=sys.argv[1]
     OF=sys.argv[2]
