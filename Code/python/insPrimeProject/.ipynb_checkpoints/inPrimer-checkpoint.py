@@ -14,7 +14,7 @@ import sys
     Returns:  melting temperature (float)
 '''
 def Tm(primerSeq):
-    TM=MeltingTemp.Tm_NN(primerSeq,Mg=2.0,nn_table=MeltingTemp.DNA_NN4)
+    TM=MeltingTemp.Tm_NN(primerSeq,Na=50, K=50, Mg=1.5,nn_table=MeltingTemp.DNA_NN4)
     return(TM)
 
 ''' Function: seqWalk()
@@ -69,7 +69,7 @@ def windowSizing(position,interval,inputSeq,insertionSeq,tmDes,windowSizeMin):
     TM_f=TM #final Tm of forward annealing region.
     
     #linker annealing
-    linkerSeq_F=primerF.lower()+insertionSeq.upper()+primerR_for.lower()
+    linkerSeq_F=primerR_for.lower()+insertionSeq.upper()+primerF.lower()
     linkerSeq_R=str(Seq(linkerSeq_F).reverse_complement())
     
     print("Insertion at pos: "+str(position))
@@ -87,8 +87,8 @@ def windowSizing(position,interval,inputSeq,insertionSeq,tmDes,windowSizeMin):
 
 if __name__ == "__main__":
     #defaults
-    tmDes=52
-    windowSize=8 #minimum priming region length
+    tmDes=56
+    windowSize=20 #minimum priming region length (must be 20 for TWIST...)
     
     seqFile=sys.argv[1]
     OF=sys.argv[2]
@@ -98,8 +98,9 @@ if __name__ == "__main__":
     FLAGx3="GACTATAAAGACCATGATGGAGATTATAAGGACCATGACATCGACTATAAGGATGACGACGATAAA"#DYKDHDG-DYKDHDI-DYKDDDDK
     SIINFEKL="TCCATTATTAATTTCGAGAAACTG" #SIINFEKL
     SUN_GCN4="tcgggcgaggagttattgagcaaaaactatcatttagagaacgaagtcgcgcgcttaaagaaaggctcgggc" #SG-EELLSKNYHLENEVARLKK-GSG
+    SUN_GCNx5 = "tcgggtgaagaattactgagtaaaaattatcatctggaaaatgaggtagcgagactaaaaaaggggagtggttctggcgaagagttgctatcgaaaaattatcatcttgagaacgaagttgctaggctcaaaaagggctcaggctcaggcgaggagttgctctcgaaaaactaccacttggaaaatgaggtcgcgaggttgaaaaaggggagcgggtcgggcgaggagttattgagcaaaaactatcatttagagaacgaagtcgcgcgcttaaagaaaggctcgggctcgggcgaagaactcttatcgaagaactaccacctcgaaaatgaggtcgccaggttgaaaaagggcagtggc" # SG-EELLSKNYHLENEVARLKK-GSG x 5
     
-    insertionSeq=SUN_GCN4
+    insertionSeq=SIINFEKL
     start=int(sys.argv[4])
     end=int(sys.argv[5])
     

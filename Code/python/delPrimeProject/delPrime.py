@@ -15,7 +15,7 @@ import sys
     Returns:  melting temperature (float)
 '''
 def Tm(primerSeq):
-    TM=MeltingTemp.Tm_NN(primerSeq,Mg=2.0,nn_table=MeltingTemp.DNA_NN4)
+    TM=MeltingTemp.Tm_NN(primerSeq,Na=50, K=50, Mg=1.5,nn_table=MeltingTemp.DNA_NN4)
     return(TM)
 
 ''' Function: seqWalk()
@@ -104,7 +104,7 @@ def windowSizing(position,delLength,inputSeq,tmDes,windowSizeMin):
 
 if __name__ == "__main__":
     #defaults
-    tmDes=52
+    tmDes=56
     windowSize=8
 
     seqFile=sys.argv[1]
