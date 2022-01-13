@@ -12,3 +12,5 @@ permalink: "/labmembers/"
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow
 
 * [William Bakhache](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
+
+* [Nathânia Dábilla](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
