@@ -1,8 +1,8 @@
 ---
 layout: page
-subheadline:  "Unit Chief, QVEU"
-title:  "Patrick T. Dolan, Ph.D."
-teaser: "Unit Chief and Earl Stadtman Tenure-Track Investigator"
+subheadline:  "Visiting, QVEU"
+title:  "Nathânia Dábilla, Ph.D."
+teaser: "Ph.D. 2021, Universidade Federal de Goiás"
 
 categories:
     - design
@@ -13,9 +13,9 @@ tags:
 header: no
 image:
     title: IMG_5786.jpg
-    caption: Patrick T. Dolan
+    caption: Nathânia Dábilla
 ---
-"Patrick T. Dolan, Ph.D. is an experimental virologist and computational biologist whose work focuses on the biology and evolution of positive-sense RNA viruses. Patrick earned his B.S. degree in Microbiology and Molecular Genetics from Michigan State University, where he worked in the laboratory of Prof. Yong-Hui Zheng on the antiviral function of APOBEC3 cytidine deaminases in HIV-1. Patrick earned his Ph.D. in Biological Sciences in 2014 from Purdue University, where he studied the form and function of the hepatitis C virus-host protein interaction network under the supervision of Prof. Douglas J. LaCount and co-advisor Prof. Michael Gribskov. He then pursued postdoctoral studies at Stanford University and University of California, San Francisco, in the laboratories of Profs. Raul Andino and Judith Frydman where he developed methods to understand the evolutionary dynamics of enteroviruses and flaviviruses in alternative host environments. In the fall of 2021, Patrick will begin as Unit Chief of the Quantitative Virology and Evolution Unit (QVEU) at NIH-NIAID in Bethesda, MD where his lab will continue to study the forces that shape the long- and short-term evolution of RNA virus populations."
+"Nathânia Dábilla earned her Ph.D. in 2021 at the Institute of Tropical Pathology and Public Health (IPTSP) of Federal University of Goias (UFG) in Brazil with an internship at the National Institutes of Health (NIH, Bethesda, MD) in the Calicivirus section (NIAID/NIH). During her Ph.D., she worked with samples obtained from young children and immunocompromised individuals to evaluate diversity and evolution within and among hosts of Norovirus under the supervision and co-supervision of Prof. Menira Souza (IPTSP/UFG) and Dr. Kim Green (CV/NIAID/NIH), respectively. During the COVID-19 pandemic, she improved her experience in Molecular Biology and Bioinformatics in a multi-center collaboration to perform the evolutionary and epidemiological track of the SARS-CoV-2 variants in Goias/Brazil under the supervision of Prof. Menira Souza and Prof. Fabiola Fiaccadori (IPTSP/UFG). In January of 2021, Nathânia began her postdoctoral fellowship at the Quantitative Virology and Evolution Unit (QVEU) at NIAID-NIH in Bethesda, MD under the supervision of Patrick Dolan, Ph.D. where she will focus on the study of the within-host evolution and pathogenesis of enteroviruses and other RNA viruses."
 
 
 
