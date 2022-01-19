@@ -30,7 +30,7 @@
   side: left
 
 - title: "Lab Manual and Expectations"
-  url: "/redirect/blob/8f82fb75cda07c44479636b15c4c7fa98e27b68b/ExpectationsDocument/main.pdf"
+  url: <a href="https://github.com/QVEU/QVEU/blob/main/ExpectationsDocument/main.pdf">Link Anchor Text</a>
   side: left
 
 - title: "Search"
