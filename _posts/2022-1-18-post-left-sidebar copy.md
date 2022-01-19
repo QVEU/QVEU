@@ -14,7 +14,7 @@ image:
     thumb: 1k4r_full_illustrate_thumb.png
     title: 1k4r_full_illustrate.png
 ---
-The *QVEU* is growing! We have recently welcomed our second post-doc, Dr. Nathânia Dábilla! Nathânia recently completed her Ph.D. in Brazil fpcuising on Noroviruses. She joins the QVEU to develop single-cell and viral population sequencing applications in animal models. Welcome, Nathânia!
+The *QVEU* is growing! We have recently welcomed our second post-doc, Dr. Nathânia Dábilla! Nathânia recently completed her Ph.D. in Brazil focuising on norovirus evolution. She joins the QVEU to develop single-cell and viral population sequencing applications in animal models. Welcome, Nathânia!
 
 ## Other Posts
 {: .t60 }
