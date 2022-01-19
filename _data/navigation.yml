@@ -30,7 +30,7 @@
   side: left
 
 - title: "Lab Manual and Expectations"
-  url: "https://github.com/QVEU/QVEU/blob/8f82fb75cda07c44479636b15c4c7fa98e27b68b/ExpectationsDocument/main.pdf"
+  url: "/redirect/blob/8f82fb75cda07c44479636b15c4c7fa98e27b68b/ExpectationsDocument/main.pdf"
   side: left
 
 - title: "Search"
