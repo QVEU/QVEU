@@ -11,7 +11,7 @@ tags:
 categories:
     - qveu
 image:
-    thumb: 1k4r_full_illustrate_thumb.png
+    thumb: 1k4r_full_illustrate.png
     title: 1k4r_full_illustrate.png
     caption_url: http://unsplash.com
 ---
