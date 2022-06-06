@@ -15,6 +15,6 @@ permalink: "/labmembers/"
 
 * [Nathânia Dábilla](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
 
-* [B. Adam Catching](https://qveu.github.io/QVEU/labmembers/bac/), Visiting Fellow
+* [B. Adam Catching](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern
