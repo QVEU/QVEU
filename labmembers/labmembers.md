@@ -14,3 +14,5 @@ permalink: "/labmembers/"
 * [William Bakhache](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
 
 * [Nathânia Dábilla](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
+
+* [Adam Catching](https://qveu.github.io/QVEU/labmembers/bac/), Post-doc IRTA Fellow
