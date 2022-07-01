@@ -7,14 +7,16 @@ header:
    image_fullwidth: "AerialDCBethesda.png"
 permalink: "/labmembers/"
 ---
-* [Patrick T. Dolan](https://qveu.github.io/QVEU/labmembers/ptd/), Unit Chief
+* [Patrick T. Dolan, Ph.D.](https://qveu.github.io/QVEU/labmembers/ptd/), Unit Chief
 
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow
 
-* [William Bakhache](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
+* [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
 
-* [Nathânia Dábilla](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
+* [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
 
-* [B. Adam Catching](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
+* [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern
+
+* [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), JHU GPP Graduate Fellow
