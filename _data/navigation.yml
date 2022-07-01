@@ -20,6 +20,10 @@
     url: "/labmembers/nd/"
   - title: "Daniel A. Morales"
     url: "/labmembers/dm/"
+  - title: "Adam Catching"
+    url: "/labmembers/bac/"
+  - title: "Jack Dorman"
+    url: "/labmembers/jtd/"
 - title: Lab News
   url: "/blog/"
   side: left
