@@ -17,6 +17,8 @@ permalink: "/labmembers/"
 
 * [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
 
+Lab Alumni: 
+
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern
 
-* [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), JHU GPP Graduate Fellow
+* [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), JHU GPP Graduate Fellow Rotation Student
