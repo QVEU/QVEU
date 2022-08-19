@@ -28,7 +28,7 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Archive"
+- title: "Archive"
     url: "/blog/archive/"
 
 - title: GitHub
