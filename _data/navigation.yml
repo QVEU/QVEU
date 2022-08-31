@@ -29,7 +29,7 @@
   side: left
   dropdown:
 - title: "Archive"
-    url: "/blog/archive/"
+  url: "/blog/archive/"
 
 - title: GitHub
   url: "/redirect/"
