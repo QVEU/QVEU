@@ -20,10 +20,10 @@
     url: "/labmembers/bac/"
   - title: "Rebecca Walker"
     url: "/labmembers/rw/"
-  - title: "Daniel A. Morales"
-    url: "/labmembers/dm/"
-  - title: "Jack Dorman"
-    url: "/labmembers/jtd/"
+#  - title: "Daniel A. Morales"
+#    url: "/labmembers/dm/"
+#  - title: "Jack Dorman"
+#    url: "/labmembers/jtd/"
 - title: Lab News
   url: "/blog/"
   side: left
