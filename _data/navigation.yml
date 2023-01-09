@@ -30,8 +30,12 @@
   
 - title: "Archive"
   url: "/blog/archive/"
-
-- title: NIH Links and Info
+  
+- title: Contact QVEU
+  url: "/contact/"
+  side: left
+  
+- title: NIH Resources
   url: "/nih/"
   side: left
 
