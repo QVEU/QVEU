@@ -27,9 +27,13 @@
 - title: Lab News
   url: "/blog/"
   side: left
-  dropdown:
+  
 - title: "Archive"
   url: "/blog/archive/"
+
+- title: NIH Links and Info
+  url: "/nih/"
+  side: left
 
 - title: GitHub
   url: "/redirect/"
