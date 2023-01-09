@@ -13,11 +13,11 @@ header:
 ## About the NIH 
 
 ### The NIH Intramural Research Program
-[http://irp.nih.gov/]{http://irp.nih.gov/)
+[http://irp.nih.gov/](http://irp.nih.gov/)
 [https://irp.nih.gov/careers/faculty-level-scientific-careers](https://irp.nih.gov/careers/faculty-level-scientific-careers)
 
 ### Searchable database of all NIH intramural research projects
-[http://intramural.nih.gov/search/index.tml](http://intramural.nih.gov/search/index.tml)
+[http://intramural.nih.gov/search/index.html](http://intramural.nih.gov/search/index.html)
  
 ### NIH Intramural PIs by Scientific focus area:
 [http://irp.nih.gov/our-research/scientific-focus-areas](http://irp.nih.gov/our-research/scientific-focus-areas)
