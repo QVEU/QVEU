@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About the QVEU"
-subheadline: "Quantitative Virology and Evolution Unit"
-teaser: "We are experimental virologists and computational biologists using the tools of systems biology, population genetics, and functional genomics to explore how viruses emerge, evolve and cause disease"
+title: "Resources"
+teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. We are dedicated to the principles of equity, inclusivity, and accessibility and want to make sure we support all trainees regardless of their personal attributes. These principles are described in more detail in the lab's 'Expectation Document'"
+
 permalink: "/nih/"
 header:
     image_fullwidth: "Aerial.png"
