@@ -22,16 +22,18 @@
     url: "/labmembers/rw/"
 #  - title: "Daniel A. Morales"
 #    url: "/labmembers/dm/"
-#  - title: "Jack Dorman"
-#    url: "/labmembers/jtd/"
+  - title: "Jack Dorman"
+    url: "/labmembers/jtd/"
+
 - title: Lab News
   url: "/blog/"
   side: left
   
-- title: "Archive"
+- title: Archive
   url: "/blog/archive/"
+  side: left
   
-- title: NIH Resources
+- title: Trainee Resources
   url: "/nih/"
   side: left
 

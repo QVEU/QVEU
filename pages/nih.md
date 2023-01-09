@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Resources"
+title: "Trainee Resources"
 teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. We are dedicated to the principles of equity, inclusivity, and accessibility and want to make sure we support all trainees regardless of their personal attributes. We believe that our diversity makes us better scientists, better citizens and better humans. These principles are described in more detail in the lab's 'Expectation Document' linked below."
 
 permalink: "/nih/"
@@ -29,13 +29,15 @@ header:
   
 ### Link to Fellowships and Positions of Interest to fellows
 [https://www.training.nih.gov/](https://www.training.nih.gov/)
+
 [https://www.training.nih.gov/career_services/jobs](https://www.training.nih.gov/career_services/jobs)
  
 ### NIH Distinguished Scholars Program
 [https://diversity.nih.gov/programs-partnerships/dsp](https://diversity.nih.gov/programs-partnerships/dsp)
 
- ### Stadtman Investigator Search
+### Stadtman Investigator Search
 [http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators](http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators)
+
 [http://tenuretrack.nih.gov/apply/faq/stadtman.html](http://tenuretrack.nih.gov/apply/faq/stadtman.html)
  
 ### Independent Research Scholars Program
