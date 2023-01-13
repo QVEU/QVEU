@@ -24,15 +24,13 @@
 #    url: "/labmembers/dm/"
   - title: "Jack Dorman"
     url: "/labmembers/jtd/"
-
 #- title: Lab News
 #  url: "/blog/"
 #  side: left
-  
 #- title: Archive
 #  url: "/blog/archive/"
 #  side: left
-  
+
 - title: Trainee Resources
   url: "/nih/"
   side: left
