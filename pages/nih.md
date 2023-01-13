@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Trainee Resources"
-teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. We are dedicated to the principles of equity, inclusivity, and accessibility and want to make sure we support all trainees regardless of their personal attributes. We believe that our diversity makes us better scientists, better citizens and better humans. These principles are described in more detail in the lab's 'Expectation Document' linked below."
+teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. We are dedicated to the principles of equity, inclusivity, and accessibility and want to make sure we support all trainees regardless of their personal attributes. We believe that our diversity makes us better scientists, better citizens and better humans. These principles are described in more detail in the lab's 'Expectations Document' linked below."
 
 permalink: "/nih/"
 header:
@@ -22,11 +22,37 @@ header:
 ### NIH Intramural PIs by Scientific focus area:
 [http://irp.nih.gov/our-research/scientific-focus-areas](http://irp.nih.gov/our-research/scientific-focus-areas)
 
+
+## NIH Trainee Resources
+ 
+### NIH Scientific Workforce Diversity Toolkit
+[https://diversity.nih.gov/toolkit](https://diversity.nih.gov/toolkit)
+ 
+### NIH Scientific Workforce Diversity Website
+[https://diversity.nih.gov/](https://diversity.nih.gov/)
+ 
+### OIR Diversity Website
+[https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
+
+### OIR Sourcebook
+[https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
+ 
+### Other Affinity Groups
+[https://www.training.nih.gov/you_are_not_alone](https://www.training.nih.gov/you_are_not_alone)
+ 
+### Scientific Interest Groups
+[https://oir.nih.gov/sigs](https://oir.nih.gov/sigs)
+
+
+
 ## NIH Career Resources:
  
 ### Faculty & Research Careers at the NIH (2022)
 [https://www.youtube.com/watch?v=vEZxpLt5AB0](https://www.youtube.com/watch?v=vEZxpLt5AB0)
-  
+
+### Choosing an appropriate research mentor:
+[https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
+ 
 ### Link to Fellowships and Positions of Interest to fellows
 [https://www.training.nih.gov/](https://www.training.nih.gov/)
 
@@ -46,29 +72,6 @@ header:
 ### Advertised NIH Intramural postdoc positions
 [https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
 
-### Choosing an appropriate research mentor:
-[https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
- 
-### Scientific Interest Groups
-[https://oir.nih.gov/sigs](https://oir.nih.gov/sigs)
-
-### NIH Loan Repayment programs
+ ### NIH Loan Repayment programs
 [https://www.lrp.nih.gov/apply](https://www.training.nih.gov/you_are_not_alone)  
   
-## NIH Diversity and Equity Resources
- 
-### NIH Scientific Workforce Diversity Toolkit
-[https://diversity.nih.gov/toolkit](https://diversity.nih.gov/toolkit)
- 
-### NIH Scientific Workforce Diversity Website
-[https://diversity.nih.gov/](https://diversity.nih.gov/)
- 
-### OIR Diversity Website
-[https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
-
-### OIR Sourcebook
-[https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
- 
-### Other Affinity Groups
-[https://www.training.nih.gov/you_are_not_alone](https://www.training.nih.gov/you_are_not_alone)
- 
