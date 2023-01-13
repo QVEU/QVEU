@@ -36,12 +36,14 @@ header:
 
 ### OIR Sourcebook
 [https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
- 
+
+ ### Scientific Interest Groups
+[https://oir.nih.gov/sigs](https://oir.nih.gov/sigs)
+
 ### Other Affinity Groups
 [https://www.training.nih.gov/you_are_not_alone](https://www.training.nih.gov/you_are_not_alone)
  
-### Scientific Interest Groups
-[https://oir.nih.gov/sigs](https://oir.nih.gov/sigs)
+
 
 
 
@@ -51,7 +53,6 @@ header:
 [https://www.youtube.com/watch?v=vEZxpLt5AB0](https://www.youtube.com/watch?v=vEZxpLt5AB0)
 
 ### OITE Postdoc and Postbac application pages
-
 
 ### Choosing an appropriate research mentor:
 [https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
@@ -75,6 +76,6 @@ header:
 ### Intramural postdoc positions
 [https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
 
- ### NIH Loan Repayment programs
+### NIH Loan Repayment programs
 [https://www.lrp.nih.gov/apply](https://www.lrp.nih.gov/apply)  
   
