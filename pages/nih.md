@@ -50,6 +50,9 @@ header:
 ### Faculty & Research Careers at the NIH (2022)
 [https://www.youtube.com/watch?v=vEZxpLt5AB0](https://www.youtube.com/watch?v=vEZxpLt5AB0)
 
+### OITE Postdoc and Postbac application pages
+
+
 ### Choosing an appropriate research mentor:
 [https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
  
@@ -69,9 +72,9 @@ header:
 ### Independent Research Scholars Program
 [https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program](https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program)
  
-### Advertised NIH Intramural postdoc positions
+### Intramural postdoc positions
 [https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
 
  ### NIH Loan Repayment programs
-[https://www.lrp.nih.gov/apply](https://www.training.nih.gov/you_are_not_alone)  
+[https://www.lrp.nih.gov/apply](https://www.lrp.nih.gov/apply)  
   
