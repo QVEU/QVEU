@@ -23,19 +23,7 @@ header:
 [http://irp.nih.gov/our-research/scientific-focus-areas](http://irp.nih.gov/our-research/scientific-focus-areas)
 
 
-## NIH Trainee Resources
-
-### NIH Scientific Workforce Diversity Toolkit
-[https://diversity.nih.gov/toolkit](https://diversity.nih.gov/toolkit)
-
-### NIH Scientific Workforce Diversity Website
-[https://diversity.nih.gov/](https://diversity.nih.gov/)
-
-### OIR Diversity Website
-[https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
-
-### OIR Sourcebook
-[https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
+## NIH Interest and Affinity Groups
 
 ### Scientific Interest Groups
 [https://oir.nih.gov/sigs](https://oir.nih.gov/sigs)
@@ -44,18 +32,29 @@ header:
 [https://www.training.nih.gov/you_are_not_alone](https://www.training.nih.gov/you_are_not_alone)
 
 
+## NIH Trainee Resources
+
+### NIH Scientific Workforce Diversity Toolkit
+[https://diversity.nih.gov/toolkit](https://diversity.nih.gov/toolkit)
+
+### NIH Scientific Workforce Diversity Website
+[https://diversity.nih.gov/](https://diversity.nih.gov/)
+
+### OIR Sourcebook
+[https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
+
+### OIR Diversity Website
+[https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
 
 
 
-## NIH Career Resources:
+## NIH Career Resources - Postdoc
 
-### Faculty & Research Careers at the NIH (2022)
-[https://www.youtube.com/watch?v=vEZxpLt5AB0](https://www.youtube.com/watch?v=vEZxpLt5AB0)
+### NIAID ORTD Postdoc and Postbac application pages
+https://postdoc.niaid.nih.gov/
 
-### OITE Postdoc and Postbac application pages
-
-### Choosing an appropriate research mentor:
-[https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
+### Intramural postdoc positions
+[https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
 
 ### Link to Fellowships and Positions of Interest to fellows
 [https://www.training.nih.gov/](https://www.training.nih.gov/)
@@ -65,16 +64,27 @@ header:
 ### NIH Distinguished Scholars Program
 [https://diversity.nih.gov/programs-partnerships/dsp](https://diversity.nih.gov/programs-partnerships/dsp)
 
+
+## NIH Career Resources - Postbac and Graduate
+
+### Choosing an appropriate research mentor:
+[https://www.training.nih.gov/mentoring_guidelines](https://www.training.nih.gov/mentoring_guidelines)
+
+### NIH Postbac Program: 
+[https://www.training.nih.gov/programs/postbac_irta](https://www.training.nih.gov/programs/postbac_irta)
+
+## NIH Faculty Career Resources
+
+### Faculty & Research Careers at the NIH (2022)
+[https://www.youtube.com/watch?v=vEZxpLt5AB0](https://www.youtube.com/watch?v=vEZxpLt5AB0)
+
 ### Stadtman Investigator Search
-[http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators](http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators)
+- [http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators](http://irp.nih.gov/careers/trans-nih-scientific-recruitments/stadtman-tenure-track-investigators)
 
-[http://tenuretrack.nih.gov/apply/faq/stadtman.html](http://tenuretrack.nih.gov/apply/faq/stadtman.html)
+- [http://tenuretrack.nih.gov/apply/faq/stadtman.html](http://tenuretrack.nih.gov/apply/faq/stadtman.html)
 
-### Independent Research Scholars Program
-[https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program](https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program)
-
-### Intramural postdoc positions
-[https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
+### Independent Research Scholars Program - For Domestic Postdocs (IRTA)
+- [https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program](https://oir.nih.gov/sourcebook/personnel/ipds-appointment-mechanisms/research-fellow/independent-research-scholar-program)
 
 ### NIH Loan Repayment programs
-[https://www.lrp.nih.gov/apply](https://www.lrp.nih.gov/apply)  
+- [https://www.lrp.nih.gov/apply](https://www.lrp.nih.gov/apply)  
