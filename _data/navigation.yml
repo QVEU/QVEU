@@ -18,18 +18,22 @@
     url: "/labmembers/nd/"
   - title: "Adam Catching, Ph.D."
     url: "/labmembers/bac/"
-      - title: "Rebecca Walker"
+  - title: "Rebecca Walker"
     url: "/labmembers/rw/"
-      - title: "Daniel A. Morales"
-    url: "/labmembers/dm/"
+#  - title: "Daniel A. Morales"
+#    url: "/labmembers/dm/"
   - title: "Jack Dorman"
     url: "/labmembers/jtd/"
-- title: Lab News
-  url: "/blog/"
+#- title: Lab News
+#  url: "/blog/"
+#  side: left
+#- title: Archive
+#  url: "/blog/archive/"
+#  side: left
+
+- title: Trainee Resources
+  url: "/nih/"
   side: left
-  dropdown:
-  - title: "Archive"
-    url: "/blog/archive/"
 
 - title: GitHub
   url: "/redirect/"
