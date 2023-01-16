@@ -73,6 +73,10 @@ header:
 ### NIH Postbac Program: 
 - [https://www.training.nih.gov/programs/postbac_irta](https://www.training.nih.gov/programs/postbac_irta)
 
+### NIH Graduate Partnership Program and other Ph.D. Opportunities.
+
+- [https://www.training.nih.gov/trainees/grads](https://www.training.nih.gov/trainees/grads)
+
 ## NIH Faculty Career Resources
 
 ### Faculty & Research Careers at the NIH (2022)
