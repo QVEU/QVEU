@@ -11,9 +11,8 @@ tags:
 categories:
     - qveu
 image:
-    thumb: 1k4r_full_illustrate.png
-    title: 1k4r_full_illustrate.png
-    caption_url: http://unsplash.com
+    thumb: PV.png
+    title: PV.png
 ---
 The *QVEU* is opening on October 1. We are excited to welcome our first lab members, Rebecca Walker, and Dr. William Bakhache!
 
