@@ -2,7 +2,7 @@
 layout: page
 sidebar: left
 subheadline: Lab News
-title:  "Summer 2022 Updates"
+title:  "January 2023"
 teaser: "Happy New Year from the QVEU!"
 breadcrumb: true
 tags:
