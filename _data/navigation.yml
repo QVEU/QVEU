@@ -28,14 +28,11 @@
 - title: Trainee Resources
   url: "/nih/"
   side: left
-  
+
 - title: Lab News
   url: "/blog/"
   side: left
 
-- title: Archive
-  url: "/blog/archive/"
-  side: left
 - title: GitHub
   url: "/redirect/"
   side: left
