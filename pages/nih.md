@@ -46,7 +46,8 @@ header:
 ### OIR Diversity Website
 - [https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
 
-
+### Neurodiversity Group Sharepoint Site and E-mail List
+https://nih.sharepoint.com/sites/NIH-NeurodiversityGroup
 
 ## NIH Career Resources - Postdoc
 
