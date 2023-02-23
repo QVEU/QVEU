@@ -51,8 +51,8 @@ header:
 
 ## NIH Career Resources - Postdoc
 
-### NIAID ORTD Postdoc and Postbac application pages
-- https://postdoc.niaid.nih.gov/
+### NIAID ORTD Postdoc application pages
+- [https://postdoc.niaid.nih.gov/](https://postdoc.niaid.nih.gov/)
 
 ### Intramural postdoc positions
 - [https://www.training.nih.gov/career_services/postdoc_jobs_nih](https://www.training.nih.gov/career_services/postdoc_jobs_nih)
