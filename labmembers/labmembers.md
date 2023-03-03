@@ -17,6 +17,8 @@ permalink: "/labmembers/"
 
 * [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
 
+* [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
+
 Lab Alumni: 
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern
