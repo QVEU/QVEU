@@ -11,7 +11,7 @@ tags:
     - background color
     - labmember
 header: no
-image:
+image: Orr_Headshot.jpg
     title: 
     caption: Walker Symonds-Orr
 ---
