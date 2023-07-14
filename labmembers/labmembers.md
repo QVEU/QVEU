@@ -19,7 +19,7 @@ permalink: "/labmembers/"
 
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
 
-* [Elizabeth Bardwill-Lugones](https://qveu.github.io/QVEU/labmembers/ebl/), Georgetown GPP Graduate Fellow Rotation Student
+* [Elizabeth Bardwil-Lugones](https://qveu.github.io/QVEU/labmembers/ebl/), Georgetown GPP Graduate Fellow Rotation Student
 
 Lab Alumni: 
 
