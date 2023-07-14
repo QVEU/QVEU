@@ -21,6 +21,9 @@ permalink: "/labmembers/"
 
 * [Elizabeth Bardwil-Lugones](https://qveu.github.io/QVEU/labmembers/ebl/), Georgetown GPP Graduate Fellow Rotation Student
 
+* [Emily Fritsche](https://qveu.github.io/QVEU/labmembers/ef/), SIP Summer Intern, co-mentored with Nídia Trovão, Fogarty International Center
+
+
 Lab Alumni: 
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern, Current: Ph.D. Student, Florida International University
