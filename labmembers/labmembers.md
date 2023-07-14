@@ -23,7 +23,7 @@ permalink: "/labmembers/"
 
 Lab Alumni: 
 
-* [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern
+* [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern, Current: Ph.D. Student, Florida International University
 
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow - Current: Medical Student, Wake Forest
 
