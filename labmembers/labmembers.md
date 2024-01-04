@@ -17,14 +17,17 @@ permalink: "/labmembers/"
 
 * [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), JHU GPP Graduate Fellow
 
+* [Lauren McCormick](https://qveu.github.io/QVEU/labmembers/lm/), NIH Oxford-Cambridge (OxCam) Scholar (co-advised with Aris Katzourakis, University of Oxford)
+
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
 
-* [Elizabeth Bardwil-Lugones](https://qveu.github.io/QVEU/labmembers/ebl/), Georgetown GPP Graduate Fellow Rotation Student
-
-* [Emily Fritsche](https://qveu.github.io/QVEU/labmembers/ef/), SIP Summer Intern, co-mentored with Nídia Trovão, Fogarty International Center
-
+* [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern
 
 Lab Alumni: 
+
+* Elizabeth Bardwil-Lugones, Georgetown GPP Graduate Fellow Rotation Student
+
+* Emily Fritsche, SIP Summer Intern, co-mentored with Nídia Trovão, Fogarty International Center
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern, Current: Ph.D. Student, Florida International University
 
