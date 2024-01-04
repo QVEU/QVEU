@@ -9,19 +9,19 @@ permalink: "/labmembers/"
 ---
 * [Patrick T. Dolan, Ph.D.](https://qveu.github.io/QVEU/labmembers/ptd/), Unit Chief
 
-* [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Fellow
+* [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Postdoctoral Fellow
 
-* [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Fellow
+* [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Postdoctoral Fellow
 
 * [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
 
-* [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), JHU GPP Graduate Fellow
+* [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), Graduate Partnership Program (GPP) Graduate Fellow, Johns Hopkins University
 
 * [Lauren McCormick](https://qveu.github.io/QVEU/labmembers/lm/), NIH Oxford-Cambridge (OxCam) Scholar (co-advised with Aris Katzourakis, University of Oxford)
 
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
 
-* [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern
+* [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern, Georgetown University
 
 Lab Alumni: 
 
