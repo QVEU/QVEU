@@ -33,3 +33,4 @@ Lab Alumni:
 
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow - Current: Medical Student, Wake Forest
 
+* [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow, Florida International University
