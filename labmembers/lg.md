@@ -11,7 +11,8 @@ tags:
     - background color
     - labmember
 header: no
-image:
+image:\includegraphics[]{leo.jpeg}
+
     title: 
     caption: Leonardo Giordano
 ---
