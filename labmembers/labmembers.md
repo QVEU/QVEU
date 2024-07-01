@@ -23,6 +23,8 @@ permalink: "/labmembers/"
 
 * [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern, Georgetown University
 
+* [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow, Florida International University
+
 Lab Alumni: 
 
 * Elizabeth Bardwil-Lugones, Georgetown GPP Graduate Fellow Rotation Student
@@ -32,5 +34,3 @@ Lab Alumni:
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern, Current: Ph.D. Student, Florida International University
 
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow - Current: Medical Student, Wake Forest
-
-* [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow, Florida International University
