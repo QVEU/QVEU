@@ -23,6 +23,8 @@ permalink: "/labmembers/"
 
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
 
+* [Ann Shen](https://github.com/QVEU/QVEU/blob/main/labmembers/as.md/), SIP Summer Intern
+
 Lab Alumni: 
 
 * Elizabeth Bardwil-Lugones, Georgetown GPP Graduate Fellow Rotation Student
