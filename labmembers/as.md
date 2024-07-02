@@ -2,7 +2,7 @@
 layout: page
 subheadline:  "SIP Summer Intern, QVEU"
 title:  "Ann Shen"
-teaser: " B.S. 2027, Case Western Reserve University"
+teaser: "Pursuing B.S. 2027, Case Western Reserve University"
 categories:
     - design
 tags:
