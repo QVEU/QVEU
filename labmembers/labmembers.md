@@ -23,7 +23,7 @@ permalink: "/labmembers/"
 
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
 
-* [Ann Shen](https://github.com/QVEU/QVEU/blob/main/labmembers/as/), SIP Summer Intern
+* [Ann Shen](https://qveu.github.io/QVEU/labmembers/as/), SIP Summer Intern
 
 Lab Alumni: 
 
