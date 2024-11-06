@@ -16,16 +16,17 @@
     url: "/labmembers/wb/"
   - title: "Nathânia Dábilla, Ph.D."
     url: "/labmembers/nd/"
-  - title: "Adam Catching, Ph.D."
-    url: "/labmembers/bac/"
   - title: "Jack Dorman"
     url: "/labmembers/jtd/"
   - title: "Lauren McCormick"
     url: "/labmembers/lm/"
   - title: "Walker Symonds-Orr"
     url: "/labmembers/weo/"
-  - title: "Chris Mariskanish"
-    url: "/labmembers/cm/"
+  - title: "Leonardo Giordano"
+    url: "/labmembers/lg/"
+  - title: "James Bruns"
+    url: "/labmembers/jb/"
+
 
 - title: Trainee Resources
   url: "/nih/"
