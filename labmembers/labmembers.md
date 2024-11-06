@@ -13,21 +13,24 @@ permalink: "/labmembers/"
 
 * [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Postdoctoral Fellow
 
-* [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow
-
 * [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), Graduate Partnership Program (GPP) Graduate Fellow, Johns Hopkins University
 
 * [Lauren McCormick](https://qveu.github.io/QVEU/labmembers/lm/), NIH Oxford-Cambridge (OxCam) Scholar (co-advised with Aris Katzourakis, University of Oxford)
 
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
 
+* [James Bruns](https://qveu.github.io/QVEU/labmembers/jb/), Post-bac IRTA Fellow
+
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
 
-* [Ann Shen](https://qveu.github.io/QVEU/labmembers/as/), SIP Summer Intern
 
 Lab Alumni: 
 
-* Elizabeth Bardwil-Lugones, Georgetown GPP Graduate Fellow Rotation Student
+* [Ann Shen](https://qveu.github.io/QVEU/labmembers/as/), SIP Summer Intern
+  
+* [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow, Now: Data Science Contractor with NIA
+
+* Elizabeth Bardwil-Lugones, Georgetown GPP Graduate Fellow Rotation Student, Now PhD Student, NCI
 
 * Emily Fritsche, SIP Summer Intern, co-mentored with Nídia Trovão, Fogarty International Center
 
