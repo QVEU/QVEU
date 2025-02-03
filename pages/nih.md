@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Trainee Resources"
-teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. We are dedicated to the principles of equity, inclusivity, and accessibility and want to make sure we support all trainees regardless of their personal attributes. We believe that our diversity makes us better scientists, better citizens and better humans. These principles are described in more detail in the lab's 'Expectations Document' linked below."
+teaser: "The Quantitative Virology and Evolution Unit is dedicated to creating and maintaining a safe, supportive environment for all of our members. These principles are described in more detail in the lab's 'Expectations Document' linked below."
 
 permalink: "/nih/"
 header:
@@ -34,17 +34,8 @@ header:
 
 ## NIH Trainee Resources
 
-### NIH Scientific Workforce Diversity Toolkit
-- [https://diversity.nih.gov/toolkit](https://diversity.nih.gov/toolkit)
-
-### NIH Scientific Workforce Diversity Website
-- [https://diversity.nih.gov/](https://diversity.nih.gov/)
-
 ### OIR Sourcebook
 - [https://oir.nih.gov/sourcebook](https://oir.nih.gov/sourcebook)
-
-### OIR Diversity Website
-- [https://oir.nih.gov/about/our-commitment-diversity-inclusion](https://oir.nih.gov/about/our-commitment-diversity-inclusion)
 
 ### Neurodiversity Group Sharepoint Site and E-mail List
 - [https://nih.sharepoint.com/sites/NIH-NeurodiversityGroup](https://nih.sharepoint.com/sites/NIH-NeurodiversityGroup)
