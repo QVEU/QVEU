@@ -2,8 +2,8 @@
 layout: page
 subheadline:  "Visiting Fellow, QVEU"
 title:  "Michelle Law MBBS, Ph.D."
-teaser: "Ph.D. 2024, Nanyang Technological University"
-teaser: "MBBS 2017, Barts and the London School of Medicine and Dentistry"
+teaser: "Ph.D. 2024, Nanyang Technological University 
+MBBS, 2017 Barts and the London School of Medicine and Dentistry"
 categories:
     - design
 tags:
