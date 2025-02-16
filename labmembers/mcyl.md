@@ -2,7 +2,7 @@
 layout: page
 subheadline:  "Visiting Fellow, QVEU"
 title:  "Michelle Law MBBS, Ph.D."
-teaser: "MBBS, 2017 QMUL Ph.D. 2024, Nanyang Technological University"
+teaser: "MBBS 2017, QMUL Ph.D. 2024, Nanyang Technological University"
 categories:
     - design
 tags:
