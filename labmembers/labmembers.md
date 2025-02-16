@@ -12,6 +12,8 @@ permalink: "/labmembers/"
 * [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Postdoctoral Fellow
 
 * [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Postdoctoral Fellow
+  
+* [Michelle Law, MBBS, Ph.D.](https://qveu.github.io/QVEU/labmembers/mcyl/), Visiting Postdoctoral Fellow
 
 * [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), Graduate Partnership Program (GPP) Graduate Fellow, Johns Hopkins University
 
