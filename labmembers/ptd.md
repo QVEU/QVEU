@@ -1,7 +1,7 @@
 ---
 layout: page
 subheadline:  "Unit Chief, QVEU"
-title:  "Patrick T. Dolan, Ph.D., He/Him/His"
+title:  "Patrick T. Dolan, Ph.D."
 teaser: "Unit Chief and Earl Stadtman Tenure-Track Investigator"
 
 categories:
