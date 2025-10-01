@@ -24,6 +24,8 @@ permalink: "/labmembers/"
 * [James Bruns](https://qveu.github.io/QVEU/labmembers/jb/), Post-bac IRTA Fellow
 
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
+  
+* [Elysse Grossi-Soyster, Ph.D.](https://qveu.github.io/QVEU/labmembers/engs/), Postdoctoral Fellow
 
 
 Lab Alumni: 
