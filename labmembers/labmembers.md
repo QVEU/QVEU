@@ -21,8 +21,6 @@ permalink: "/labmembers/"
 
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
 
-* [James Bruns](https://qveu.github.io/QVEU/labmembers/jb/), Post-bac IRTA Fellow
-
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
   
 * [Elysse Grossi-Soyster, Ph.D.](https://qveu.github.io/QVEU/labmembers/engs/), Postdoctoral Fellow
@@ -30,6 +28,8 @@ permalink: "/labmembers/"
 
 Lab Alumni: 
 
+* [James Bruns](https://qveu.github.io/QVEU/labmembers/jb/), Post-bac IRTA Fellow
+   
 * [Ann Shen](https://qveu.github.io/QVEU/labmembers/as/), SIP Summer Intern
   
 * [B. Adam Catching, Ph.D.](https://qveu.github.io/QVEU/labmembers/bac/), Postdoctoral IRTA Fellow, Now: Data Science Contractor with NIA
