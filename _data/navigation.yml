@@ -18,6 +18,8 @@
     url: "/labmembers/nd/"
   - title: "Michelle Law, M.B.B.S., Ph.D."
     url: "/labmembers/mcyl/"
+  - title: "Elysse Grossi-Soyster, Ph.D."
+    url: "/labmembers/engs/"
   - title: "Jack Dorman"
     url: "/labmembers/jtd/"
   - title: "Lauren McCormick"
@@ -26,9 +28,6 @@
     url: "/labmembers/weo/"
   - title: "Leonardo Giordano"
     url: "/labmembers/lg/"
-  - title: "James Bruns"
-    url: "/labmembers/jb/"
-
 
 - title: Trainee Resources
   url: "/nih/"
