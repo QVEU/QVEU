@@ -9,11 +9,11 @@ permalink: "/labmembers/"
 ---
 * [Patrick T. Dolan, Ph.D.](https://qveu.github.io/QVEU/labmembers/ptd/), Unit Chief
 
-* [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Postdoctoral Fellow
-
 * [Nathânia Dábilla, Ph.D.](https://qveu.github.io/QVEU/labmembers/nd/), Visiting Postdoctoral Fellow
   
 * [Michelle Law, MBBS, Ph.D.](https://qveu.github.io/QVEU/labmembers/mcyl/), Visiting Postdoctoral Fellow
+
+* [Elysse Grossi-Soyster, Ph.D.](https://qveu.github.io/QVEU/labmembers/engs/), Postdoctoral Fellow
 
 * [Jack Dorman](https://qveu.github.io/QVEU/labmembers/jtd/), Graduate Partnership Program (GPP) Graduate Fellow, Johns Hopkins University
 
@@ -23,10 +23,12 @@ permalink: "/labmembers/"
 
 * [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
   
-* [Elysse Grossi-Soyster, Ph.D.](https://qveu.github.io/QVEU/labmembers/engs/), Postdoctoral Fellow
+
 
 
 Lab Alumni: 
+
+* [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Postdoctoral Fellow 2021-2025, Now: Strasboug, France
 
 * [James Bruns](https://qveu.github.io/QVEU/labmembers/jb/), Post-bac IRTA Fellow
    
