@@ -1,6 +1,6 @@
 # Welcome to the QVEU
 
-![Image](QVEU copy.png)
+![Image](QVEUcopy.png)
 
 The [**Quantitative Virology and Evolution Unit**](https://qveu.github.io/QVEU/) is led by [Patrick Dolan, Ph.D.](https://www.niaid.nih.gov/research/patrick-t-dolan-phd), Earl Stadtman Tenure-Track Investigator and Unit Chief in the [Laboratory of Viral Diseases](https://www.niaid.nih.gov/research/lab-viral-diseases), NIH-NIAID, in Bethesda, MD. 
 
