@@ -21,7 +21,7 @@ permalink: "/labmembers/"
 
 * [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), PhD Graduate Fellow, University of Maryland
 
-* [Oscar Ojeda, Jr.](https://qveu.github.io/QVEU/labmembers/oo/), Post-bac IRTA Fellow
+* [Oscar Ojeda, Jr.](https://qveu.github.io/QVEU/labmembers/OO/), Post-bac IRTA Fellow
   
 
 
