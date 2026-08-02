@@ -19,14 +19,16 @@ permalink: "/labmembers/"
 
 * [Lauren McCormick](https://qveu.github.io/QVEU/labmembers/lm/), NIH Oxford-Cambridge (OxCam) Scholar (co-advised with Aris Katzourakis, University of Oxford)
 
-* [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), Post-bac IRTA Fellow
+* [Walker Symonds-Orr](https://qveu.github.io/QVEU/labmembers/weo/), PhD Graduate Fellow, University of Maryland
 
-* [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
+* [Oscar Ojeda, Jr.](https://qveu.github.io/QVEU/labmembers/oo/), Post-bac IRTA Fellow
   
 
 
 
 Lab Alumni: 
+
+* [Leonardo Giordano](https://qveu.github.io/QVEU/labmembers/lg/), Post-bac IRTA Fellow
 
 * [William Bakhache, Ph.D.](https://qveu.github.io/QVEU/labmembers/wb/), Visiting Postdoctoral Fellow 2021-2025, Now: Strasboug, France
 
@@ -42,6 +44,7 @@ Lab Alumni:
 
 * [Daniel A. Morales](https://qveu.github.io/QVEU/labmembers/dm/), G-SOAR Graduate Summer Intern, Current: Ph.D. Student, Florida International University
 
+* [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern, Georgetown University
+
 * [Rebecca Walker](https://qveu.github.io/QVEU/labmembers/rw/), Post-bac IRTA Fellow - Current: Medical Student, Wake Forest
 
-* [Chris Mariskanish](https://qveu.github.io/QVEU/labmembers/cm/), Graduate Bioinformatics Intern, Georgetown University
