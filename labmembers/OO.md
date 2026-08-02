@@ -12,7 +12,7 @@ tags:
     - labmember
 header: no
 image:
-    title: Oscar Ojeda, Jr. 
+    title: OO_image.jpeg
     caption: Oscar Ojeda, Jr. 
 ---
 
