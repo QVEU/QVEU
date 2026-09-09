@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GoodIndex</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js" crossorigin></script>
+
+<style>
+  body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="react">
+const { useState, useMemo } = React;
+const currentYear = new Date().getFullYear();
+
+function IconSearch() {
+  return <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>;
+}
+function IconLoader() {
+  return <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="animate-spin"><line x1="12" y1="2" x2="12" y2="6" /><line x1="12" y1="18" x2="12" y2="22" /><line x1="4.93" y1="4.93" x2="7.76" y2="7.76" /><line x1="16.24" y1="16.24" x2="19.07" y2="19.07" /><line x1="2" y1="12" x2="6" y2="12" /><line x1="18" y1="12" x2="22" y2="12" /><line x1="4.93" y1="19.07" x2="7.76" y2="16.24" /><line x1="16.24" y1="7.76" x2="19.07" y2="4.93" /></svg>;
+}
+function IconTrash() {
+  return <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="3 6 5 6 21 6" /><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /></svg>;
+}
+function IconInfo() {
+  return <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" /></svg>;
+}
+function IconPlus() {
+  return <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>;
+}
+function IconWarning() {
+  return <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{flexShrink: 0, marginTop: "2px"}}><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" /><line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" /></svg>;
+}
+
+function GoodIndex() {
+  const [papers, setPapers] = useState([]);
+  const [asOfYear, setAsOfYear] = useState(currentYear);
+  const [nextId, setNextId] = useState(1);
+  const [showInfo, setShowInfo] = useState(false);
+
+  const [searchMode, setSearchMode] = useState("name"); // "name" | "orcid"
+  const [authorName, setAuthorName] = useState("");
+  const [affiliation, setAffiliation] = useState("");
+  const [orcid, setOrcid] = useState("");
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [statusMsg, setStatusMsg] = useState("");
+
+  const updatePaper = (id, field, value) => {
+    setPapers((prev) => prev.map((p) => (p.id === id ? { ...p, [field]: value } : p)));
+  };
+
+  const addPaper = () => {
+    setPapers((prev) => [...prev, { id: nextId, title: `Paper ${nextId}`, citations: 0, year: currentYear, selfCitations: 0, hasSelfData: true, source: "manual" }]);
+    setNextId((n) => n + 1);
+  };
+
+  const removePaper = (id) => setPapers((prev) => prev.filter((p) => p.id !== id));
+  const clearAll = () => setPapers([]);
+
+  // ---- iCite batch helper: given pmids, returns map pmid -> {citation_count, cited_by, year, title}
+  const fetchICite = async (pmidList) => {
+    const map = {};
+    const chunks = [];
+    for (let i = 0; i < pmidList.length; i += 200) chunks.push(pmidList.slice(i, i + 200));
+    for (const chunk of chunks) {
+      const url = `https://icite.od.nih.gov/api/pubs?pmids=${chunk.join(",")}&fl=pmid,year,title,citation_count,cited_by`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`iCite lookup failed (HTTP ${res.status})`);
+      const data = await res.json();
+      (data.data || []).forEach((r) => {
+        map[String(r.pmid)] = r;
+      });
+    }
+    return map;
+  };
+
+  // ---- Name-based PubMed search (unchanged approach) ----
+  const fetchByName = async () => {
+    let queryStr = `${authorName}[Author]`;
+    if (affiliation.trim()) queryStr += ` AND ${affiliation}[Affiliation]`;
+    const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${encodeURIComponent(queryStr)}&retmode=json&retmax=300`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`PubMed search failed (HTTP ${res.status})`);
+    const data = await res.json();
+    const pmids = (data && data.esearchresult && data.esearchresult.idlist) || [];
+
+    if (pmids.length === 0) {
+      setError("No PubMed results found. Try 'Last FM' format (e.g. 'Smith JA'), or add an affiliation keyword to narrow it down.");
+      return;
+    }
+
+    setStatusMsg(`Found ${pmids.length} PubMed record(s). Fetching citation data from iCite...`);
+    const iciteMap = await fetchICite(pmids);
+    const ownPmidSet = new Set(pmids.map(String));
+
+    const newPapers = pmids
+      .map((pmid, idx) => {
+        const r = iciteMap[String(pmid)];
+        if (!r || r.year == null) return null;
+        const citedBy = Array.isArray(r.cited_by) ? r.cited_by.map(String) : [];
+        const selfCitations = citedBy.filter((id) => ownPmidSet.has(id)).length;
+        return {
+          id: Date.now() + idx,
+          title: r.title || `PMID ${pmid}`,
+          citations: r.citation_count != null ? r.citation_count : 0,
+          year: r.year,
+          selfCitations,
+          hasSelfData: true,
+          source: "pubmed",
+        };
+      })
+      .filter(Boolean);
+
+    newPapers.sort((a, b) => b.year - a.year);
+    setPapers(newPapers);
+    setNextId(Date.now() + newPapers.length + 1);
+    setStatusMsg(`Loaded ${newPapers.length} paper(s) from PubMed.`);
+  };
+
+  // ---- ORCID-native full works pull ----
+  const fetchByOrcid = async () => {
+    const cleanOrcid = orcid.trim().replace(/^https?:\/\/orcid\.org\//i, "");
+
+    setStatusMsg("Fetching works list from ORCID...");
+    const orcidUrl = `https://pub.orcid.org/v3.0/${cleanOrcid}/works`;
+    const orcidRes = await fetch(orcidUrl, { headers: { Accept: "application/json" } });
+    if (!orcidRes.ok) {
+      throw new Error(
+        `ORCID lookup failed (HTTP ${orcidRes.status}). Double-check the ID is correct and public.`
+      );
+    }
+    const orcidData = await orcidRes.json();
+    const groups = orcidData.group || [];
+
+    if (groups.length === 0) {
+      setError("No works found on that ORCID profile. The profile may be empty or private.");
+      return;
+    }
+
+    // Extract identifiers by scanning ALL source entries within each group —
+    // ORCID groups multiple submissions of the same work together, and different
+    // sources (journal import, manual entry, etc.) may have different identifiers populated.
+    const works = groups.map((g) => {
+      const summaries = g["work-summary"] || [];
+      let title = "Untitled";
+      let year = null;
+      let pmid = null;
+      let doi = null;
+
+      summaries.forEach((ws) => {
+        if (title === "Untitled" && ws.title && ws.title.title && ws.title.title.value) {
+          title = ws.title.title.value;
+        }
+        if (year == null && ws["publication-date"] && ws["publication-date"].year) {
+          year = parseInt(ws["publication-date"].year.value);
+        }
+        const extIds = (ws["external-ids"] && ws["external-ids"]["external-id"]) || [];
+        extIds.forEach((e) => {
+          const type = (e["external-id-type"] || "").toLowerCase();
+          let val = e["external-id-value"];
+          if (!val) return;
+          val = val.trim();
+          if (type === "pmid" && !pmid) pmid = val.replace(/[^0-9]/g, "");
+          if (type === "doi" && !doi) {
+            // Strip common DOI URL prefixes so lookups against Crossref/ID Converter succeed
+            doi = val.replace(/^https?:\/\/(dx\.)?doi\.org\//i, "").replace(/^doi:\s*/i, "");
+          }
+        });
+      });
+
+      return { title, year, pmid, doi };
+    });
+
+    const withPmid = works.filter((w) => w.pmid);
+    const doiOnly = works.filter((w) => !w.pmid && w.doi);
+    const noId = works.filter((w) => !w.pmid && !w.doi);
+
+    setStatusMsg(`Found ${works.length} work(s) on ORCID. Fetching citation data...`);
+
+    // Works with a native PMID go through iCite directly (best data: self-citations included)
+    const ownPmidSet = new Set(withPmid.map((w) => String(w.pmid)));
+    setStatusMsg(`Fetching citation counts for ${withPmid.length} PubMed-indexed work(s)...`);
+    const iciteMap = withPmid.length > 0 ? await fetchICite(withPmid.map((w) => w.pmid)) : {};
+
+    const pmidPapers = withPmid.map((w, idx) => {
+      const r = iciteMap[String(w.pmid)];
+      const citedBy = r && Array.isArray(r.cited_by) ? r.cited_by.map(String) : [];
+      const selfCitations = citedBy.filter((id) => ownPmidSet.has(id)).length;
+      return {
+        id: Date.now() + idx,
+        title: (r && r.title) || w.title,
+        citations: r && r.citation_count != null ? r.citation_count : 0,
+        year: (r && r.year) || w.year || currentYear,
+        selfCitations,
+        hasSelfData: !!r,
+        source: "pubmed",
+      };
+    });
+
+    // Works with only a DOI go straight to Crossref — no PMID conversion step,
+    // since that extra hop was silently dropping resolvable papers.
+    // Requests are sent sequentially (not all at once) since firing dozens of
+    // simultaneous requests can trigger rate-limiting that shows up as a generic
+    // "Failed to fetch" browser error.
+    const failures = [];
+    let crossrefPapers = [];
+    if (doiOnly.length > 0) {
+      setStatusMsg(`Fetching citation counts for ${doiOnly.length} work(s) via Crossref (by DOI)...`);
+
+      const fetchOneCrossref = async (w, attempt) => {
+        try {
+          const cfRes = await fetch(
+            `https://api.crossref.org/works/${encodeURIComponent(w.doi)}?mailto=goodindex-tool@example.com`
+          );
+          if (!cfRes.ok) {
+            if (attempt === 1) return fetchOneCrossref(w, 2);
+            failures.push(`${w.title} (Crossref HTTP ${cfRes.status} for DOI "${w.doi}")`);
+            return null;
+          }
+          const cfData = await cfRes.json();
+          const count = cfData.message && cfData.message["is-referenced-by-count"];
+          const cfYear =
+            cfData.message &&
+            cfData.message["published"] &&
+            cfData.message["published"]["date-parts"] &&
+            cfData.message["published"]["date-parts"][0] &&
+            cfData.message["published"]["date-parts"][0][0];
+          return {
+            id: Date.now() + Math.random(),
+            title: w.title,
+            citations: count != null ? count : 0,
+            year: cfYear || w.year || currentYear,
+            selfCitations: 0,
+            hasSelfData: false,
+            source: "crossref",
+          };
+        } catch (e) {
+          if (attempt === 1) {
+            await new Promise((r) => setTimeout(r, 300));
+            return fetchOneCrossref(w, 2);
+          }
+          failures.push(`${w.title} (Crossref fetch error: ${e.message})`);
+          return null;
+        }
+      };
+
+      for (let i = 0; i < doiOnly.length; i++) {
+        const result = await fetchOneCrossref(doiOnly[i], 1);
+        if (result) crossrefPapers.push(result);
+        if (i % 5 === 0) setStatusMsg(`Fetching citation counts via Crossref... (${i + 1}/${doiOnly.length})`);
+      }
+    }
+
+    noId.forEach((w) => failures.push(`${w.title} (no PMID or DOI on ORCID record)`));
+
+    const combined = [...pmidPapers, ...crossrefPapers];
+    combined.sort((a, b) => b.year - a.year);
+    setPapers(combined);
+    setNextId(Date.now() + combined.length + 1);
+
+    let msg = `Loaded ${combined.length} of ${works.length} ORCID work(s) with citation data.`;
+    if (failures.length > 0) {
+      msg += ` ${failures.length} skipped. Examples: ${failures.slice(0, 3).join(" | ")}`;
+      const allCrossrefFailed = doiOnly.length > 0 && crossrefPapers.length === 0;
+      if (allCrossrefFailed) {
+        msg += ` — Every Crossref request failed identically, which usually means something in your browser (an ad-blocker or privacy extension) is blocking requests to crossref.org, rather than an issue with these specific papers. Try disabling extensions for this page, or test in a private/incognito window.`;
+      }
+    }
+    setStatusMsg(msg);
+  };
+
+  const fetchData = async () => {
+    const usingOrcid = searchMode === "orcid";
+    if (usingOrcid && !orcid.trim()) return;
+    if (!usingOrcid && !authorName.trim()) return;
+
+    setLoading(true);
+    setError(null);
+    setStatusMsg("Starting...");
+
+    try {
+      if (usingOrcid) {
+        await fetchByOrcid();
+      } else {
+        await fetchByName();
+      }
+    } catch (e) {
+      setError(
+        `Fetch failed: ${e.message}. If you opened this file directly (file://), some browsers block network requests from local files — try running a local server instead (e.g. "python3 -m http.server" in this folder, then visit http://localhost:8000/).`
+      );
+      setStatusMsg("");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const computed = useMemo(() => {
+    const rows = papers.map((p) => {
+      const years = Math.max(asOfYear - p.year, 0) + 1;
+      const rate = p.citations / years;
+      return { ...p, years, rate };
+    });
+
+    const sorted = [...rows].sort((a, b) => b.rate - a.rate);
+    let h = 0;
+    for (let i = 0; i < sorted.length; i++) {
+      const rank = i + 1;
+      if (sorted[i].rate >= rank) h = rank; else break;
+    }
+
+    const sortedByCitations = [...rows].sort((a, b) => b.citations - a.citations);
+    let classicH = 0;
+    for (let i = 0; i < sortedByCitations.length; i++) {
+      const rank = i + 1;
+      if (sortedByCitations[i].citations >= rank) classicH = rank; else break;
+    }
+
+    let median = 0;
+    if (rows.length > 0) {
+      const rates = rows.map((r) => r.rate).sort((a, b) => a - b);
+      const mid = Math.floor(rates.length / 2);
+      median = rates.length % 2 === 0 ? (rates[mid - 1] + rates[mid]) / 2 : rates[mid];
+    }
+
+    const totalSelfCitations = rows.reduce((sum, r) => sum + (r.selfCitations || 0), 0);
+    const totalCitations = rows.reduce((sum, r) => sum + (r.citations || 0), 0);
+    const selfDataCoverage = rows.filter((r) => r.hasSelfData).length;
+
+    return { rows: sorted, h, classicH, median, totalSelfCitations, totalCitations, selfDataCoverage };
+  }, [papers, asOfYear]);
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-100 p-6">
+      <div className="max-w-4xl mx-auto">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">
+            GoodIndex
+          </h1>
+          <p className="text-slate-400 text-sm mt-1">
+            A citation-quality metric that doesn't reward career length — pulling live data from PubMed, ORCID, iCite, and Crossref.
+          </p>
+        </div>
+
+        <button onClick={() => setShowInfo((s) => !s)} className="flex items-center gap-2 text-sm text-cyan-300 hover:text-cyan-200 mb-4 transition-colors">
+          <IconInfo />
+          {showInfo ? "Hide" : "Show"} how this works
+        </button>
+
+        {showInfo && (
+          <div className="bg-slate-800/60 border border-slate-700 rounded-lg p-4 mb-6 text-sm text-slate-300 space-y-2">
+            <p>For each paper, we compute a <span className="text-cyan-300 font-medium">citation rate</span> = citations ÷ years since publication (publication year counts as year 1).</p>
+            <p><span className="text-cyan-300 font-medium">Median citations/year/paper</span> is the primary metric: the middle value of all per-paper rates. It isn't inflated by publishing more papers.</p>
+            <p>The h-index numbers are shown for reference. The <span className="text-cyan-300 font-medium">Rate-Index</span> is the largest number h such that at least h papers have a citation rate (citations ÷ years since publication) of at least h — the same construction as the classic h-index, but applied to the age-adjusted rate instead of raw citation counts. The <span className="text-cyan-300 font-medium">Classic H-Index</span> does the same using raw citation counts, ignoring paper age entirely. Both still reward volume somewhat — a researcher needs many qualifying papers to post a high score, not just good ones.</p>
+            <p><span className="text-cyan-300 font-medium">Self-citations</span> counts citations from another paper by the same author. Only available for works matched to a PMID (via PubMed or DOI→PMID conversion) — Crossref-only entries show "–" since Crossref doesn't expose per-reference authorship easily.</p>
+            <p className="text-slate-400 italic">
+              ORCID mode: pulls your complete works list directly from your ORCID profile. Works with a PMID already attached use iCite (full data, including self-citations). Works with only a DOI go straight to Crossref for a citation count (no self-citation data available there). Works with neither identifier can't be matched and are skipped — the status message will name them.
+            </p>
+          </div>
+        )}
+
+        <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 mb-6">
+          <label className="text-sm text-slate-300 block mb-2">Load an author's papers</label>
+
+          <div className="flex gap-2 mb-3">
+            <button
+              type="button"
+              onClick={() => setSearchMode("name")}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors ${
+                searchMode === "name" ? "bg-cyan-500/30 border-cyan-400/50 text-cyan-200" : "bg-slate-900/50 border-slate-700 text-slate-400 hover:text-slate-200"
+              }`}
+            >
+              Search by name (PubMed)
+            </button>
+            <button
+              type="button"
+              onClick={() => setSearchMode("orcid")}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors ${
+                searchMode === "orcid" ? "bg-cyan-500/30 border-cyan-400/50 text-cyan-200" : "bg-slate-900/50 border-slate-700 text-slate-400 hover:text-slate-200"
+              }`}
+            >
+              Import from ORCID (recommended)
+            </button>
+          </div>
+
+          {searchMode === "orcid" ? (
+            <div>
+              <label className="text-xs text-slate-400 block mb-1">ORCID iD</label>
+              <input
+                type="text"
+                value={orcid}
+                onChange={(e) => setOrcid(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && fetchData()}
+                placeholder="0000-0002-1825-0097"
+                className="w-full bg-slate-900 border border-slate-600 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                autoFocus
+              />
+              <p className="text-xs text-slate-500 mt-2">
+                Pulls your full works list directly from ORCID, then matches each to a PMID (PubMed/iCite) or falls back to Crossref by DOI. Catches papers PubMed's own ORCID tagging misses.
+              </p>
+            </div>
+          ) : (
+            <div className="space-y-2">
+              <div>
+                <label className="text-xs text-slate-400 block mb-1">Author name</label>
+                <input
+                  type="text"
+                  value={authorName}
+                  onChange={(e) => setAuthorName(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && fetchData()}
+                  placeholder="e.g. Smith JA"
+                  className="w-full bg-slate-900 border border-slate-600 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                />
+              </div>
+              <div>
+                <label className="text-xs text-slate-400 block mb-1">Affiliation keyword (optional, helps disambiguate)</label>
+                <input
+                  type="text"
+                  value={affiliation}
+                  onChange={(e) => setAffiliation(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && fetchData()}
+                  placeholder="e.g. Stanford"
+                  className="w-full bg-slate-900 border border-slate-600 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-400"
+                />
+              </div>
+              <p className="text-xs text-slate-500">
+                Matches everyone with that name in PubMed unless narrowed by affiliation. Only covers PubMed-indexed work with a matching name string.
+              </p>
+            </div>
+          )}
+
+          <button
+            onClick={fetchData}
+            disabled={loading}
+            className="flex items-center gap-2 mt-3 px-4 py-2 bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-400/30 rounded-lg text-cyan-300 text-sm transition-colors disabled:opacity-50"
+          >
+            {loading ? <IconLoader /> : <IconSearch />}
+            {loading ? "Loading..." : "Fetch"}
+          </button>
+
+          {statusMsg && !error && <p className="text-xs text-cyan-300/80 mt-2">{statusMsg}</p>}
+          {error && (
+            <div className="flex items-start gap-2 mt-3 text-xs text-amber-300 bg-amber-500/10 border border-amber-500/30 rounded p-3">
+              <IconWarning />
+              <span>{error}</span>
+            </div>
+          )}
+        </div>
+
+        <div className="flex items-center gap-3 mb-4">
+          <label className="text-sm text-slate-300">Evaluate as of year:</label>
+          <input
+            type="number"
+            value={asOfYear}
+            onChange={(e) => setAsOfYear(parseInt(e.target.value) || currentYear)}
+            className="bg-slate-800 border border-slate-600 rounded px-3 py-1.5 w-28 text-slate-100 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          />
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/10 border border-cyan-400/30 rounded-xl p-5">
+            <div className="text-xs uppercase tracking-wide text-cyan-300/80 mb-1">Median Citations / Yr / Paper</div>
+            <div className="text-4xl font-bold text-cyan-300">{computed.median.toFixed(2)}</div>
+            <div className="text-xs text-cyan-300/60 mt-1">
+              based on {papers.length} paper{papers.length === 1 ? "" : "s"}
+            </div>
+            {papers.length > 0 && papers.length < 5 && (
+              <div className="text-xs text-amber-300/90 mt-2 flex items-start gap-1">
+                <IconWarning />
+                <span>Small sample — may be unstable under 5 papers.</span>
+              </div>
+            )}
+          </div>
+          <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-5">
+            <div className="text-xs uppercase tracking-wide text-slate-400 mb-1">Rate-Index</div>
+            <div className="text-4xl font-bold text-slate-300">{computed.h}</div>
+          </div>
+          <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-5">
+            <div className="text-xs uppercase tracking-wide text-slate-400 mb-1">Classic H-Index</div>
+            <div className="text-4xl font-bold text-slate-300">{computed.classicH}</div>
+          </div>
+          <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-5">
+            <div className="text-xs uppercase tracking-wide text-slate-400 mb-1">Self-Citations</div>
+            <div className="text-4xl font-bold text-slate-300">{computed.totalSelfCitations}</div>
+            <div className="text-xs text-slate-500 mt-1">
+              {computed.totalCitations > 0
+                ? `${((computed.totalSelfCitations / computed.totalCitations) * 100).toFixed(1)}% of ${computed.totalCitations} total`
+                : "of total citations"}
+              {computed.selfDataCoverage < papers.length && papers.length > 0 && (
+                <span> · {papers.length - computed.selfDataCoverage} paper(s) lack self-citation data</span>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {papers.length === 0 ? (
+          <div className="text-center text-slate-500 text-sm py-8 border border-dashed border-slate-700 rounded-xl">
+            No papers yet — search an author above, or add papers manually below.
+          </div>
+        ) : (
+          <div className="bg-slate-800/40 border border-slate-700 rounded-xl overflow-hidden">
+            <div className="grid grid-cols-12 gap-2 px-4 py-2 bg-slate-800 text-xs uppercase tracking-wide text-slate-400 font-medium">
+              <div className="col-span-4">Title</div>
+              <div className="col-span-2 text-right">Citations</div>
+              <div className="col-span-1 text-right">Self</div>
+              <div className="col-span-2 text-right">Pub. Year</div>
+              <div className="col-span-1 text-right">Years</div>
+              <div className="col-span-1 text-right">Rate</div>
+              <div className="col-span-1"></div>
+            </div>
+
+            {computed.rows.map((p) => (
+              <div key={p.id} className="grid grid-cols-12 gap-2 px-4 py-2 border-t border-slate-700/50 items-center hover:bg-slate-700/20 transition-colors">
+                <input
+                  className="col-span-4 bg-transparent border-b border-slate-700 focus:border-cyan-400 outline-none text-sm py-1 truncate"
+                  value={p.title}
+                  onChange={(e) => updatePaper(p.id, "title", e.target.value)}
+                  title={p.title + (p.source === "crossref" ? " (via Crossref)" : "")}
+                />
+                <input
+                  type="number"
+                  className="col-span-2 bg-transparent border-b border-slate-700 focus:border-cyan-400 outline-none text-sm py-1 text-right"
+                  value={p.citations}
+                  onChange={(e) => updatePaper(p.id, "citations", parseFloat(e.target.value) || 0)}
+                />
+                <div className="col-span-1 text-right text-sm text-slate-500">{p.hasSelfData ? (p.selfCitations || 0) : "–"}</div>
+                <input
+                  type="number"
+                  className="col-span-2 bg-transparent border-b border-slate-700 focus:border-cyan-400 outline-none text-sm py-1 text-right"
+                  value={p.year}
+                  onChange={(e) => updatePaper(p.id, "year", parseInt(e.target.value) || currentYear)}
+                />
+                <div className="col-span-1 text-right text-sm text-slate-400">{p.years}</div>
+                <div className="col-span-1 text-right text-sm font-medium text-cyan-300">{p.rate.toFixed(2)}</div>
+                <div className="col-span-1 flex justify-end">
+                  <button onClick={() => removePaper(p.id)} className="text-slate-500 hover:text-red-400 transition-colors">
+                    <IconTrash />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div className="flex gap-3 mt-4">
+          <button onClick={addPaper} className="flex items-center gap-2 px-4 py-2 bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-400/30 rounded-lg text-cyan-300 text-sm transition-colors">
+            <IconPlus />
+            Add paper manually
+          </button>
+          {papers.length > 0 && (
+            <button onClick={clearAll} className="flex items-center gap-2 px-4 py-2 bg-slate-700/40 hover:bg-slate-700/60 border border-slate-600 rounded-lg text-slate-300 text-sm transition-colors">
+              Clear all
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<GoodIndex />);
+</script>
+</body>
+</html>
